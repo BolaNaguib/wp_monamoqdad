@@ -28,17 +28,12 @@ function my_acf_init()
 {
     // check function exists
     if (function_exists('acf_register_block')) {
-        add_guttenberg_block('clients');
-        add_guttenberg_block('contact');
-        add_guttenberg_block('counters');
+        add_guttenberg_block('about');
+        add_guttenberg_block('category');
         add_guttenberg_block('hero');
-        add_guttenberg_block('services');
-        add_guttenberg_block('servicesicon');
-        add_guttenberg_block('team');
-        add_guttenberg_block('testimonials');
+        add_guttenberg_block('360block');
     }
 }
-
 function add_guttenberg_block($blockname)
 {
     // register card block

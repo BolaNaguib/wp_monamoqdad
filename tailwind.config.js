@@ -27,7 +27,7 @@ module.exports = {
 		borderRadius: ["responsive", "hover"],
 		opacity: ["group-hover"],
 		scale: ["group-hover", "hover"],
-		translate: ["group-hover", "hover"],
+		translate: ["responsive", "group-hover", "hover"],
 		backgroundColor: ["group-hover", "hover"],
 	},
 	plugins: [require("tailwindcss-filters")],

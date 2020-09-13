@@ -31,7 +31,9 @@ function my_acf_init()
         add_guttenberg_block('about');
         add_guttenberg_block('category');
         add_guttenberg_block('hero');
-        add_guttenberg_block('360block');
+        add_guttenberg_block('contact');
+        add_guttenberg_block('rotateblock');
+        add_guttenberg_block('products');
     }
 }
 function add_guttenberg_block($blockname)

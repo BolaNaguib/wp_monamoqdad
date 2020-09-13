@@ -4429,6 +4429,14 @@ img,video{max-width:100%;height:auto}
 .hover\:filter-nograyscale:hover{-webkit-filter:grayscale(0);filter:grayscale(0)}
 .focus\:filter-grayscale:focus{-webkit-filter:grayscale(1);filter:grayscale(1)}
 .focus\:filter-nograyscale:focus{-webkit-filter:grayscale(0);filter:grayscale(0)}
+.forminput input{width:100% !important;font-size:.875rem !important;position:relative !important;border-width:1px !important;border-radius:.25rem !important;padding-top:.5rem !important;padding-bottom:.5rem !important;padding-left:.5rem !important;padding-right:.5rem !important;margin-bottom:1rem !important}
+.forminput input:focus{outline:0}
+.forminput input[type="checkbox"]{width:auto !important;font-size:.875rem !important;position:relative !important;border-width:1px !important;border-radius:.25rem !important;padding-top:.5rem !important;padding-bottom:.5rem !important;padding-left:.5rem !important;padding-right:.5rem !important}
+.forminput input[type="checkbox"]:focus{outline:0}
+.forminput input[type="submit"]{width:100% !important;font-size:.875rem !important;position:relative !important;border-width:1px !important;border-radius:.25rem !important;--bg-opacity:1 !important;background-color:#000 !important;background-color:rgba(0,0,0,var(--bg-opacity)) !important;--text-opacity:1 !important;color:#fff !important;color:rgba(255,255,255,var(--text-opacity)) !important;padding-top:.5rem !important;padding-bottom:.5rem !important;padding-left:.5rem !important;padding-right:.5rem !important}
+.forminput input[type="submit"]:focus{outline:0}
+.forminput textarea{width:100% !important;font-size:.875rem !important;position:relative !important;border-width:1px !important;border-radius:.25rem !important;padding-top:.5rem !important;padding-bottom:.5rem !important;padding-left:.5rem !important;padding-right:.5rem !important}
+.forminput textarea:focus{outline:0}
 @media(min-width:640px){.container{max-width:640px}
 .sm\:container{width:100%}
 .sm\:space-y-0>:not(template) ~ :not(template){--space-y-reverse:0;margin-top:calc(0px * calc(1 - var(--space-y-reverse)));margin-bottom:calc(0px * var(--space-y-reverse))}
@@ -8110,6 +8118,252 @@ img,video{max-width:100%;height:auto}
 .sm\:focus\:-rotate-180:focus{--transform-rotate:-180deg}
 .sm\:focus\:-rotate-90:focus{--transform-rotate:-90deg}
 .sm\:focus\:-rotate-45:focus{--transform-rotate:-45deg}
+.sm\:translate-x-0{--transform-translate-x:0}
+.sm\:translate-x-1{--transform-translate-x:.25rem}
+.sm\:translate-x-2{--transform-translate-x:.5rem}
+.sm\:translate-x-3{--transform-translate-x:.75rem}
+.sm\:translate-x-4{--transform-translate-x:1rem}
+.sm\:translate-x-5{--transform-translate-x:1.25rem}
+.sm\:translate-x-6{--transform-translate-x:1.5rem}
+.sm\:translate-x-8{--transform-translate-x:2rem}
+.sm\:translate-x-10{--transform-translate-x:2.5rem}
+.sm\:translate-x-12{--transform-translate-x:3rem}
+.sm\:translate-x-16{--transform-translate-x:4rem}
+.sm\:translate-x-20{--transform-translate-x:5rem}
+.sm\:translate-x-24{--transform-translate-x:6rem}
+.sm\:translate-x-32{--transform-translate-x:8rem}
+.sm\:translate-x-40{--transform-translate-x:10rem}
+.sm\:translate-x-48{--transform-translate-x:12rem}
+.sm\:translate-x-56{--transform-translate-x:14rem}
+.sm\:translate-x-64{--transform-translate-x:16rem}
+.sm\:translate-x-px{--transform-translate-x:1px}
+.sm\:-translate-x-1{--transform-translate-x:-0.25rem}
+.sm\:-translate-x-2{--transform-translate-x:-0.5rem}
+.sm\:-translate-x-3{--transform-translate-x:-0.75rem}
+.sm\:-translate-x-4{--transform-translate-x:-1rem}
+.sm\:-translate-x-5{--transform-translate-x:-1.25rem}
+.sm\:-translate-x-6{--transform-translate-x:-1.5rem}
+.sm\:-translate-x-8{--transform-translate-x:-2rem}
+.sm\:-translate-x-10{--transform-translate-x:-2.5rem}
+.sm\:-translate-x-12{--transform-translate-x:-3rem}
+.sm\:-translate-x-16{--transform-translate-x:-4rem}
+.sm\:-translate-x-20{--transform-translate-x:-5rem}
+.sm\:-translate-x-24{--transform-translate-x:-6rem}
+.sm\:-translate-x-32{--transform-translate-x:-8rem}
+.sm\:-translate-x-40{--transform-translate-x:-10rem}
+.sm\:-translate-x-48{--transform-translate-x:-12rem}
+.sm\:-translate-x-56{--transform-translate-x:-14rem}
+.sm\:-translate-x-64{--transform-translate-x:-16rem}
+.sm\:-translate-x-px{--transform-translate-x:-1px}
+.sm\:-translate-x-full{--transform-translate-x:-100%}
+.sm\:-translate-x-1\/2{--transform-translate-x:-50%}
+.sm\:translate-x-1\/2{--transform-translate-x:50%}
+.sm\:translate-x-full{--transform-translate-x:100%}
+.sm\:translate-y-0{--transform-translate-y:0}
+.sm\:translate-y-1{--transform-translate-y:.25rem}
+.sm\:translate-y-2{--transform-translate-y:.5rem}
+.sm\:translate-y-3{--transform-translate-y:.75rem}
+.sm\:translate-y-4{--transform-translate-y:1rem}
+.sm\:translate-y-5{--transform-translate-y:1.25rem}
+.sm\:translate-y-6{--transform-translate-y:1.5rem}
+.sm\:translate-y-8{--transform-translate-y:2rem}
+.sm\:translate-y-10{--transform-translate-y:2.5rem}
+.sm\:translate-y-12{--transform-translate-y:3rem}
+.sm\:translate-y-16{--transform-translate-y:4rem}
+.sm\:translate-y-20{--transform-translate-y:5rem}
+.sm\:translate-y-24{--transform-translate-y:6rem}
+.sm\:translate-y-32{--transform-translate-y:8rem}
+.sm\:translate-y-40{--transform-translate-y:10rem}
+.sm\:translate-y-48{--transform-translate-y:12rem}
+.sm\:translate-y-56{--transform-translate-y:14rem}
+.sm\:translate-y-64{--transform-translate-y:16rem}
+.sm\:translate-y-px{--transform-translate-y:1px}
+.sm\:-translate-y-1{--transform-translate-y:-0.25rem}
+.sm\:-translate-y-2{--transform-translate-y:-0.5rem}
+.sm\:-translate-y-3{--transform-translate-y:-0.75rem}
+.sm\:-translate-y-4{--transform-translate-y:-1rem}
+.sm\:-translate-y-5{--transform-translate-y:-1.25rem}
+.sm\:-translate-y-6{--transform-translate-y:-1.5rem}
+.sm\:-translate-y-8{--transform-translate-y:-2rem}
+.sm\:-translate-y-10{--transform-translate-y:-2.5rem}
+.sm\:-translate-y-12{--transform-translate-y:-3rem}
+.sm\:-translate-y-16{--transform-translate-y:-4rem}
+.sm\:-translate-y-20{--transform-translate-y:-5rem}
+.sm\:-translate-y-24{--transform-translate-y:-6rem}
+.sm\:-translate-y-32{--transform-translate-y:-8rem}
+.sm\:-translate-y-40{--transform-translate-y:-10rem}
+.sm\:-translate-y-48{--transform-translate-y:-12rem}
+.sm\:-translate-y-56{--transform-translate-y:-14rem}
+.sm\:-translate-y-64{--transform-translate-y:-16rem}
+.sm\:-translate-y-px{--transform-translate-y:-1px}
+.sm\:-translate-y-full{--transform-translate-y:-100%}
+.sm\:-translate-y-1\/2{--transform-translate-y:-50%}
+.sm\:translate-y-1\/2{--transform-translate-y:50%}
+.sm\:translate-y-full{--transform-translate-y:100%}
+.group:hover .sm\:group-hover\:translate-x-0{--transform-translate-x:0}
+.group:hover .sm\:group-hover\:translate-x-1{--transform-translate-x:.25rem}
+.group:hover .sm\:group-hover\:translate-x-2{--transform-translate-x:.5rem}
+.group:hover .sm\:group-hover\:translate-x-3{--transform-translate-x:.75rem}
+.group:hover .sm\:group-hover\:translate-x-4{--transform-translate-x:1rem}
+.group:hover .sm\:group-hover\:translate-x-5{--transform-translate-x:1.25rem}
+.group:hover .sm\:group-hover\:translate-x-6{--transform-translate-x:1.5rem}
+.group:hover .sm\:group-hover\:translate-x-8{--transform-translate-x:2rem}
+.group:hover .sm\:group-hover\:translate-x-10{--transform-translate-x:2.5rem}
+.group:hover .sm\:group-hover\:translate-x-12{--transform-translate-x:3rem}
+.group:hover .sm\:group-hover\:translate-x-16{--transform-translate-x:4rem}
+.group:hover .sm\:group-hover\:translate-x-20{--transform-translate-x:5rem}
+.group:hover .sm\:group-hover\:translate-x-24{--transform-translate-x:6rem}
+.group:hover .sm\:group-hover\:translate-x-32{--transform-translate-x:8rem}
+.group:hover .sm\:group-hover\:translate-x-40{--transform-translate-x:10rem}
+.group:hover .sm\:group-hover\:translate-x-48{--transform-translate-x:12rem}
+.group:hover .sm\:group-hover\:translate-x-56{--transform-translate-x:14rem}
+.group:hover .sm\:group-hover\:translate-x-64{--transform-translate-x:16rem}
+.group:hover .sm\:group-hover\:translate-x-px{--transform-translate-x:1px}
+.group:hover .sm\:group-hover\:-translate-x-1{--transform-translate-x:-0.25rem}
+.group:hover .sm\:group-hover\:-translate-x-2{--transform-translate-x:-0.5rem}
+.group:hover .sm\:group-hover\:-translate-x-3{--transform-translate-x:-0.75rem}
+.group:hover .sm\:group-hover\:-translate-x-4{--transform-translate-x:-1rem}
+.group:hover .sm\:group-hover\:-translate-x-5{--transform-translate-x:-1.25rem}
+.group:hover .sm\:group-hover\:-translate-x-6{--transform-translate-x:-1.5rem}
+.group:hover .sm\:group-hover\:-translate-x-8{--transform-translate-x:-2rem}
+.group:hover .sm\:group-hover\:-translate-x-10{--transform-translate-x:-2.5rem}
+.group:hover .sm\:group-hover\:-translate-x-12{--transform-translate-x:-3rem}
+.group:hover .sm\:group-hover\:-translate-x-16{--transform-translate-x:-4rem}
+.group:hover .sm\:group-hover\:-translate-x-20{--transform-translate-x:-5rem}
+.group:hover .sm\:group-hover\:-translate-x-24{--transform-translate-x:-6rem}
+.group:hover .sm\:group-hover\:-translate-x-32{--transform-translate-x:-8rem}
+.group:hover .sm\:group-hover\:-translate-x-40{--transform-translate-x:-10rem}
+.group:hover .sm\:group-hover\:-translate-x-48{--transform-translate-x:-12rem}
+.group:hover .sm\:group-hover\:-translate-x-56{--transform-translate-x:-14rem}
+.group:hover .sm\:group-hover\:-translate-x-64{--transform-translate-x:-16rem}
+.group:hover .sm\:group-hover\:-translate-x-px{--transform-translate-x:-1px}
+.group:hover .sm\:group-hover\:-translate-x-full{--transform-translate-x:-100%}
+.group:hover .sm\:group-hover\:-translate-x-1\/2{--transform-translate-x:-50%}
+.group:hover .sm\:group-hover\:translate-x-1\/2{--transform-translate-x:50%}
+.group:hover .sm\:group-hover\:translate-x-full{--transform-translate-x:100%}
+.group:hover .sm\:group-hover\:translate-y-0{--transform-translate-y:0}
+.group:hover .sm\:group-hover\:translate-y-1{--transform-translate-y:.25rem}
+.group:hover .sm\:group-hover\:translate-y-2{--transform-translate-y:.5rem}
+.group:hover .sm\:group-hover\:translate-y-3{--transform-translate-y:.75rem}
+.group:hover .sm\:group-hover\:translate-y-4{--transform-translate-y:1rem}
+.group:hover .sm\:group-hover\:translate-y-5{--transform-translate-y:1.25rem}
+.group:hover .sm\:group-hover\:translate-y-6{--transform-translate-y:1.5rem}
+.group:hover .sm\:group-hover\:translate-y-8{--transform-translate-y:2rem}
+.group:hover .sm\:group-hover\:translate-y-10{--transform-translate-y:2.5rem}
+.group:hover .sm\:group-hover\:translate-y-12{--transform-translate-y:3rem}
+.group:hover .sm\:group-hover\:translate-y-16{--transform-translate-y:4rem}
+.group:hover .sm\:group-hover\:translate-y-20{--transform-translate-y:5rem}
+.group:hover .sm\:group-hover\:translate-y-24{--transform-translate-y:6rem}
+.group:hover .sm\:group-hover\:translate-y-32{--transform-translate-y:8rem}
+.group:hover .sm\:group-hover\:translate-y-40{--transform-translate-y:10rem}
+.group:hover .sm\:group-hover\:translate-y-48{--transform-translate-y:12rem}
+.group:hover .sm\:group-hover\:translate-y-56{--transform-translate-y:14rem}
+.group:hover .sm\:group-hover\:translate-y-64{--transform-translate-y:16rem}
+.group:hover .sm\:group-hover\:translate-y-px{--transform-translate-y:1px}
+.group:hover .sm\:group-hover\:-translate-y-1{--transform-translate-y:-0.25rem}
+.group:hover .sm\:group-hover\:-translate-y-2{--transform-translate-y:-0.5rem}
+.group:hover .sm\:group-hover\:-translate-y-3{--transform-translate-y:-0.75rem}
+.group:hover .sm\:group-hover\:-translate-y-4{--transform-translate-y:-1rem}
+.group:hover .sm\:group-hover\:-translate-y-5{--transform-translate-y:-1.25rem}
+.group:hover .sm\:group-hover\:-translate-y-6{--transform-translate-y:-1.5rem}
+.group:hover .sm\:group-hover\:-translate-y-8{--transform-translate-y:-2rem}
+.group:hover .sm\:group-hover\:-translate-y-10{--transform-translate-y:-2.5rem}
+.group:hover .sm\:group-hover\:-translate-y-12{--transform-translate-y:-3rem}
+.group:hover .sm\:group-hover\:-translate-y-16{--transform-translate-y:-4rem}
+.group:hover .sm\:group-hover\:-translate-y-20{--transform-translate-y:-5rem}
+.group:hover .sm\:group-hover\:-translate-y-24{--transform-translate-y:-6rem}
+.group:hover .sm\:group-hover\:-translate-y-32{--transform-translate-y:-8rem}
+.group:hover .sm\:group-hover\:-translate-y-40{--transform-translate-y:-10rem}
+.group:hover .sm\:group-hover\:-translate-y-48{--transform-translate-y:-12rem}
+.group:hover .sm\:group-hover\:-translate-y-56{--transform-translate-y:-14rem}
+.group:hover .sm\:group-hover\:-translate-y-64{--transform-translate-y:-16rem}
+.group:hover .sm\:group-hover\:-translate-y-px{--transform-translate-y:-1px}
+.group:hover .sm\:group-hover\:-translate-y-full{--transform-translate-y:-100%}
+.group:hover .sm\:group-hover\:-translate-y-1\/2{--transform-translate-y:-50%}
+.group:hover .sm\:group-hover\:translate-y-1\/2{--transform-translate-y:50%}
+.group:hover .sm\:group-hover\:translate-y-full{--transform-translate-y:100%}
+.sm\:hover\:translate-x-0:hover{--transform-translate-x:0}
+.sm\:hover\:translate-x-1:hover{--transform-translate-x:.25rem}
+.sm\:hover\:translate-x-2:hover{--transform-translate-x:.5rem}
+.sm\:hover\:translate-x-3:hover{--transform-translate-x:.75rem}
+.sm\:hover\:translate-x-4:hover{--transform-translate-x:1rem}
+.sm\:hover\:translate-x-5:hover{--transform-translate-x:1.25rem}
+.sm\:hover\:translate-x-6:hover{--transform-translate-x:1.5rem}
+.sm\:hover\:translate-x-8:hover{--transform-translate-x:2rem}
+.sm\:hover\:translate-x-10:hover{--transform-translate-x:2.5rem}
+.sm\:hover\:translate-x-12:hover{--transform-translate-x:3rem}
+.sm\:hover\:translate-x-16:hover{--transform-translate-x:4rem}
+.sm\:hover\:translate-x-20:hover{--transform-translate-x:5rem}
+.sm\:hover\:translate-x-24:hover{--transform-translate-x:6rem}
+.sm\:hover\:translate-x-32:hover{--transform-translate-x:8rem}
+.sm\:hover\:translate-x-40:hover{--transform-translate-x:10rem}
+.sm\:hover\:translate-x-48:hover{--transform-translate-x:12rem}
+.sm\:hover\:translate-x-56:hover{--transform-translate-x:14rem}
+.sm\:hover\:translate-x-64:hover{--transform-translate-x:16rem}
+.sm\:hover\:translate-x-px:hover{--transform-translate-x:1px}
+.sm\:hover\:-translate-x-1:hover{--transform-translate-x:-0.25rem}
+.sm\:hover\:-translate-x-2:hover{--transform-translate-x:-0.5rem}
+.sm\:hover\:-translate-x-3:hover{--transform-translate-x:-0.75rem}
+.sm\:hover\:-translate-x-4:hover{--transform-translate-x:-1rem}
+.sm\:hover\:-translate-x-5:hover{--transform-translate-x:-1.25rem}
+.sm\:hover\:-translate-x-6:hover{--transform-translate-x:-1.5rem}
+.sm\:hover\:-translate-x-8:hover{--transform-translate-x:-2rem}
+.sm\:hover\:-translate-x-10:hover{--transform-translate-x:-2.5rem}
+.sm\:hover\:-translate-x-12:hover{--transform-translate-x:-3rem}
+.sm\:hover\:-translate-x-16:hover{--transform-translate-x:-4rem}
+.sm\:hover\:-translate-x-20:hover{--transform-translate-x:-5rem}
+.sm\:hover\:-translate-x-24:hover{--transform-translate-x:-6rem}
+.sm\:hover\:-translate-x-32:hover{--transform-translate-x:-8rem}
+.sm\:hover\:-translate-x-40:hover{--transform-translate-x:-10rem}
+.sm\:hover\:-translate-x-48:hover{--transform-translate-x:-12rem}
+.sm\:hover\:-translate-x-56:hover{--transform-translate-x:-14rem}
+.sm\:hover\:-translate-x-64:hover{--transform-translate-x:-16rem}
+.sm\:hover\:-translate-x-px:hover{--transform-translate-x:-1px}
+.sm\:hover\:-translate-x-full:hover{--transform-translate-x:-100%}
+.sm\:hover\:-translate-x-1\/2:hover{--transform-translate-x:-50%}
+.sm\:hover\:translate-x-1\/2:hover{--transform-translate-x:50%}
+.sm\:hover\:translate-x-full:hover{--transform-translate-x:100%}
+.sm\:hover\:translate-y-0:hover{--transform-translate-y:0}
+.sm\:hover\:translate-y-1:hover{--transform-translate-y:.25rem}
+.sm\:hover\:translate-y-2:hover{--transform-translate-y:.5rem}
+.sm\:hover\:translate-y-3:hover{--transform-translate-y:.75rem}
+.sm\:hover\:translate-y-4:hover{--transform-translate-y:1rem}
+.sm\:hover\:translate-y-5:hover{--transform-translate-y:1.25rem}
+.sm\:hover\:translate-y-6:hover{--transform-translate-y:1.5rem}
+.sm\:hover\:translate-y-8:hover{--transform-translate-y:2rem}
+.sm\:hover\:translate-y-10:hover{--transform-translate-y:2.5rem}
+.sm\:hover\:translate-y-12:hover{--transform-translate-y:3rem}
+.sm\:hover\:translate-y-16:hover{--transform-translate-y:4rem}
+.sm\:hover\:translate-y-20:hover{--transform-translate-y:5rem}
+.sm\:hover\:translate-y-24:hover{--transform-translate-y:6rem}
+.sm\:hover\:translate-y-32:hover{--transform-translate-y:8rem}
+.sm\:hover\:translate-y-40:hover{--transform-translate-y:10rem}
+.sm\:hover\:translate-y-48:hover{--transform-translate-y:12rem}
+.sm\:hover\:translate-y-56:hover{--transform-translate-y:14rem}
+.sm\:hover\:translate-y-64:hover{--transform-translate-y:16rem}
+.sm\:hover\:translate-y-px:hover{--transform-translate-y:1px}
+.sm\:hover\:-translate-y-1:hover{--transform-translate-y:-0.25rem}
+.sm\:hover\:-translate-y-2:hover{--transform-translate-y:-0.5rem}
+.sm\:hover\:-translate-y-3:hover{--transform-translate-y:-0.75rem}
+.sm\:hover\:-translate-y-4:hover{--transform-translate-y:-1rem}
+.sm\:hover\:-translate-y-5:hover{--transform-translate-y:-1.25rem}
+.sm\:hover\:-translate-y-6:hover{--transform-translate-y:-1.5rem}
+.sm\:hover\:-translate-y-8:hover{--transform-translate-y:-2rem}
+.sm\:hover\:-translate-y-10:hover{--transform-translate-y:-2.5rem}
+.sm\:hover\:-translate-y-12:hover{--transform-translate-y:-3rem}
+.sm\:hover\:-translate-y-16:hover{--transform-translate-y:-4rem}
+.sm\:hover\:-translate-y-20:hover{--transform-translate-y:-5rem}
+.sm\:hover\:-translate-y-24:hover{--transform-translate-y:-6rem}
+.sm\:hover\:-translate-y-32:hover{--transform-translate-y:-8rem}
+.sm\:hover\:-translate-y-40:hover{--transform-translate-y:-10rem}
+.sm\:hover\:-translate-y-48:hover{--transform-translate-y:-12rem}
+.sm\:hover\:-translate-y-56:hover{--transform-translate-y:-14rem}
+.sm\:hover\:-translate-y-64:hover{--transform-translate-y:-16rem}
+.sm\:hover\:-translate-y-px:hover{--transform-translate-y:-1px}
+.sm\:hover\:-translate-y-full:hover{--transform-translate-y:-100%}
+.sm\:hover\:-translate-y-1\/2:hover{--transform-translate-y:-50%}
+.sm\:hover\:translate-y-1\/2:hover{--transform-translate-y:50%}
+.sm\:hover\:translate-y-full:hover{--transform-translate-y:100%}
 .sm\:skew-x-0{--transform-skew-x:0}
 .sm\:skew-x-3{--transform-skew-x:3deg}
 .sm\:skew-x-6{--transform-skew-x:6deg}
@@ -11876,6 +12130,252 @@ img,video{max-width:100%;height:auto}
 .md\:focus\:-rotate-180:focus{--transform-rotate:-180deg}
 .md\:focus\:-rotate-90:focus{--transform-rotate:-90deg}
 .md\:focus\:-rotate-45:focus{--transform-rotate:-45deg}
+.md\:translate-x-0{--transform-translate-x:0}
+.md\:translate-x-1{--transform-translate-x:.25rem}
+.md\:translate-x-2{--transform-translate-x:.5rem}
+.md\:translate-x-3{--transform-translate-x:.75rem}
+.md\:translate-x-4{--transform-translate-x:1rem}
+.md\:translate-x-5{--transform-translate-x:1.25rem}
+.md\:translate-x-6{--transform-translate-x:1.5rem}
+.md\:translate-x-8{--transform-translate-x:2rem}
+.md\:translate-x-10{--transform-translate-x:2.5rem}
+.md\:translate-x-12{--transform-translate-x:3rem}
+.md\:translate-x-16{--transform-translate-x:4rem}
+.md\:translate-x-20{--transform-translate-x:5rem}
+.md\:translate-x-24{--transform-translate-x:6rem}
+.md\:translate-x-32{--transform-translate-x:8rem}
+.md\:translate-x-40{--transform-translate-x:10rem}
+.md\:translate-x-48{--transform-translate-x:12rem}
+.md\:translate-x-56{--transform-translate-x:14rem}
+.md\:translate-x-64{--transform-translate-x:16rem}
+.md\:translate-x-px{--transform-translate-x:1px}
+.md\:-translate-x-1{--transform-translate-x:-0.25rem}
+.md\:-translate-x-2{--transform-translate-x:-0.5rem}
+.md\:-translate-x-3{--transform-translate-x:-0.75rem}
+.md\:-translate-x-4{--transform-translate-x:-1rem}
+.md\:-translate-x-5{--transform-translate-x:-1.25rem}
+.md\:-translate-x-6{--transform-translate-x:-1.5rem}
+.md\:-translate-x-8{--transform-translate-x:-2rem}
+.md\:-translate-x-10{--transform-translate-x:-2.5rem}
+.md\:-translate-x-12{--transform-translate-x:-3rem}
+.md\:-translate-x-16{--transform-translate-x:-4rem}
+.md\:-translate-x-20{--transform-translate-x:-5rem}
+.md\:-translate-x-24{--transform-translate-x:-6rem}
+.md\:-translate-x-32{--transform-translate-x:-8rem}
+.md\:-translate-x-40{--transform-translate-x:-10rem}
+.md\:-translate-x-48{--transform-translate-x:-12rem}
+.md\:-translate-x-56{--transform-translate-x:-14rem}
+.md\:-translate-x-64{--transform-translate-x:-16rem}
+.md\:-translate-x-px{--transform-translate-x:-1px}
+.md\:-translate-x-full{--transform-translate-x:-100%}
+.md\:-translate-x-1\/2{--transform-translate-x:-50%}
+.md\:translate-x-1\/2{--transform-translate-x:50%}
+.md\:translate-x-full{--transform-translate-x:100%}
+.md\:translate-y-0{--transform-translate-y:0}
+.md\:translate-y-1{--transform-translate-y:.25rem}
+.md\:translate-y-2{--transform-translate-y:.5rem}
+.md\:translate-y-3{--transform-translate-y:.75rem}
+.md\:translate-y-4{--transform-translate-y:1rem}
+.md\:translate-y-5{--transform-translate-y:1.25rem}
+.md\:translate-y-6{--transform-translate-y:1.5rem}
+.md\:translate-y-8{--transform-translate-y:2rem}
+.md\:translate-y-10{--transform-translate-y:2.5rem}
+.md\:translate-y-12{--transform-translate-y:3rem}
+.md\:translate-y-16{--transform-translate-y:4rem}
+.md\:translate-y-20{--transform-translate-y:5rem}
+.md\:translate-y-24{--transform-translate-y:6rem}
+.md\:translate-y-32{--transform-translate-y:8rem}
+.md\:translate-y-40{--transform-translate-y:10rem}
+.md\:translate-y-48{--transform-translate-y:12rem}
+.md\:translate-y-56{--transform-translate-y:14rem}
+.md\:translate-y-64{--transform-translate-y:16rem}
+.md\:translate-y-px{--transform-translate-y:1px}
+.md\:-translate-y-1{--transform-translate-y:-0.25rem}
+.md\:-translate-y-2{--transform-translate-y:-0.5rem}
+.md\:-translate-y-3{--transform-translate-y:-0.75rem}
+.md\:-translate-y-4{--transform-translate-y:-1rem}
+.md\:-translate-y-5{--transform-translate-y:-1.25rem}
+.md\:-translate-y-6{--transform-translate-y:-1.5rem}
+.md\:-translate-y-8{--transform-translate-y:-2rem}
+.md\:-translate-y-10{--transform-translate-y:-2.5rem}
+.md\:-translate-y-12{--transform-translate-y:-3rem}
+.md\:-translate-y-16{--transform-translate-y:-4rem}
+.md\:-translate-y-20{--transform-translate-y:-5rem}
+.md\:-translate-y-24{--transform-translate-y:-6rem}
+.md\:-translate-y-32{--transform-translate-y:-8rem}
+.md\:-translate-y-40{--transform-translate-y:-10rem}
+.md\:-translate-y-48{--transform-translate-y:-12rem}
+.md\:-translate-y-56{--transform-translate-y:-14rem}
+.md\:-translate-y-64{--transform-translate-y:-16rem}
+.md\:-translate-y-px{--transform-translate-y:-1px}
+.md\:-translate-y-full{--transform-translate-y:-100%}
+.md\:-translate-y-1\/2{--transform-translate-y:-50%}
+.md\:translate-y-1\/2{--transform-translate-y:50%}
+.md\:translate-y-full{--transform-translate-y:100%}
+.group:hover .md\:group-hover\:translate-x-0{--transform-translate-x:0}
+.group:hover .md\:group-hover\:translate-x-1{--transform-translate-x:.25rem}
+.group:hover .md\:group-hover\:translate-x-2{--transform-translate-x:.5rem}
+.group:hover .md\:group-hover\:translate-x-3{--transform-translate-x:.75rem}
+.group:hover .md\:group-hover\:translate-x-4{--transform-translate-x:1rem}
+.group:hover .md\:group-hover\:translate-x-5{--transform-translate-x:1.25rem}
+.group:hover .md\:group-hover\:translate-x-6{--transform-translate-x:1.5rem}
+.group:hover .md\:group-hover\:translate-x-8{--transform-translate-x:2rem}
+.group:hover .md\:group-hover\:translate-x-10{--transform-translate-x:2.5rem}
+.group:hover .md\:group-hover\:translate-x-12{--transform-translate-x:3rem}
+.group:hover .md\:group-hover\:translate-x-16{--transform-translate-x:4rem}
+.group:hover .md\:group-hover\:translate-x-20{--transform-translate-x:5rem}
+.group:hover .md\:group-hover\:translate-x-24{--transform-translate-x:6rem}
+.group:hover .md\:group-hover\:translate-x-32{--transform-translate-x:8rem}
+.group:hover .md\:group-hover\:translate-x-40{--transform-translate-x:10rem}
+.group:hover .md\:group-hover\:translate-x-48{--transform-translate-x:12rem}
+.group:hover .md\:group-hover\:translate-x-56{--transform-translate-x:14rem}
+.group:hover .md\:group-hover\:translate-x-64{--transform-translate-x:16rem}
+.group:hover .md\:group-hover\:translate-x-px{--transform-translate-x:1px}
+.group:hover .md\:group-hover\:-translate-x-1{--transform-translate-x:-0.25rem}
+.group:hover .md\:group-hover\:-translate-x-2{--transform-translate-x:-0.5rem}
+.group:hover .md\:group-hover\:-translate-x-3{--transform-translate-x:-0.75rem}
+.group:hover .md\:group-hover\:-translate-x-4{--transform-translate-x:-1rem}
+.group:hover .md\:group-hover\:-translate-x-5{--transform-translate-x:-1.25rem}
+.group:hover .md\:group-hover\:-translate-x-6{--transform-translate-x:-1.5rem}
+.group:hover .md\:group-hover\:-translate-x-8{--transform-translate-x:-2rem}
+.group:hover .md\:group-hover\:-translate-x-10{--transform-translate-x:-2.5rem}
+.group:hover .md\:group-hover\:-translate-x-12{--transform-translate-x:-3rem}
+.group:hover .md\:group-hover\:-translate-x-16{--transform-translate-x:-4rem}
+.group:hover .md\:group-hover\:-translate-x-20{--transform-translate-x:-5rem}
+.group:hover .md\:group-hover\:-translate-x-24{--transform-translate-x:-6rem}
+.group:hover .md\:group-hover\:-translate-x-32{--transform-translate-x:-8rem}
+.group:hover .md\:group-hover\:-translate-x-40{--transform-translate-x:-10rem}
+.group:hover .md\:group-hover\:-translate-x-48{--transform-translate-x:-12rem}
+.group:hover .md\:group-hover\:-translate-x-56{--transform-translate-x:-14rem}
+.group:hover .md\:group-hover\:-translate-x-64{--transform-translate-x:-16rem}
+.group:hover .md\:group-hover\:-translate-x-px{--transform-translate-x:-1px}
+.group:hover .md\:group-hover\:-translate-x-full{--transform-translate-x:-100%}
+.group:hover .md\:group-hover\:-translate-x-1\/2{--transform-translate-x:-50%}
+.group:hover .md\:group-hover\:translate-x-1\/2{--transform-translate-x:50%}
+.group:hover .md\:group-hover\:translate-x-full{--transform-translate-x:100%}
+.group:hover .md\:group-hover\:translate-y-0{--transform-translate-y:0}
+.group:hover .md\:group-hover\:translate-y-1{--transform-translate-y:.25rem}
+.group:hover .md\:group-hover\:translate-y-2{--transform-translate-y:.5rem}
+.group:hover .md\:group-hover\:translate-y-3{--transform-translate-y:.75rem}
+.group:hover .md\:group-hover\:translate-y-4{--transform-translate-y:1rem}
+.group:hover .md\:group-hover\:translate-y-5{--transform-translate-y:1.25rem}
+.group:hover .md\:group-hover\:translate-y-6{--transform-translate-y:1.5rem}
+.group:hover .md\:group-hover\:translate-y-8{--transform-translate-y:2rem}
+.group:hover .md\:group-hover\:translate-y-10{--transform-translate-y:2.5rem}
+.group:hover .md\:group-hover\:translate-y-12{--transform-translate-y:3rem}
+.group:hover .md\:group-hover\:translate-y-16{--transform-translate-y:4rem}
+.group:hover .md\:group-hover\:translate-y-20{--transform-translate-y:5rem}
+.group:hover .md\:group-hover\:translate-y-24{--transform-translate-y:6rem}
+.group:hover .md\:group-hover\:translate-y-32{--transform-translate-y:8rem}
+.group:hover .md\:group-hover\:translate-y-40{--transform-translate-y:10rem}
+.group:hover .md\:group-hover\:translate-y-48{--transform-translate-y:12rem}
+.group:hover .md\:group-hover\:translate-y-56{--transform-translate-y:14rem}
+.group:hover .md\:group-hover\:translate-y-64{--transform-translate-y:16rem}
+.group:hover .md\:group-hover\:translate-y-px{--transform-translate-y:1px}
+.group:hover .md\:group-hover\:-translate-y-1{--transform-translate-y:-0.25rem}
+.group:hover .md\:group-hover\:-translate-y-2{--transform-translate-y:-0.5rem}
+.group:hover .md\:group-hover\:-translate-y-3{--transform-translate-y:-0.75rem}
+.group:hover .md\:group-hover\:-translate-y-4{--transform-translate-y:-1rem}
+.group:hover .md\:group-hover\:-translate-y-5{--transform-translate-y:-1.25rem}
+.group:hover .md\:group-hover\:-translate-y-6{--transform-translate-y:-1.5rem}
+.group:hover .md\:group-hover\:-translate-y-8{--transform-translate-y:-2rem}
+.group:hover .md\:group-hover\:-translate-y-10{--transform-translate-y:-2.5rem}
+.group:hover .md\:group-hover\:-translate-y-12{--transform-translate-y:-3rem}
+.group:hover .md\:group-hover\:-translate-y-16{--transform-translate-y:-4rem}
+.group:hover .md\:group-hover\:-translate-y-20{--transform-translate-y:-5rem}
+.group:hover .md\:group-hover\:-translate-y-24{--transform-translate-y:-6rem}
+.group:hover .md\:group-hover\:-translate-y-32{--transform-translate-y:-8rem}
+.group:hover .md\:group-hover\:-translate-y-40{--transform-translate-y:-10rem}
+.group:hover .md\:group-hover\:-translate-y-48{--transform-translate-y:-12rem}
+.group:hover .md\:group-hover\:-translate-y-56{--transform-translate-y:-14rem}
+.group:hover .md\:group-hover\:-translate-y-64{--transform-translate-y:-16rem}
+.group:hover .md\:group-hover\:-translate-y-px{--transform-translate-y:-1px}
+.group:hover .md\:group-hover\:-translate-y-full{--transform-translate-y:-100%}
+.group:hover .md\:group-hover\:-translate-y-1\/2{--transform-translate-y:-50%}
+.group:hover .md\:group-hover\:translate-y-1\/2{--transform-translate-y:50%}
+.group:hover .md\:group-hover\:translate-y-full{--transform-translate-y:100%}
+.md\:hover\:translate-x-0:hover{--transform-translate-x:0}
+.md\:hover\:translate-x-1:hover{--transform-translate-x:.25rem}
+.md\:hover\:translate-x-2:hover{--transform-translate-x:.5rem}
+.md\:hover\:translate-x-3:hover{--transform-translate-x:.75rem}
+.md\:hover\:translate-x-4:hover{--transform-translate-x:1rem}
+.md\:hover\:translate-x-5:hover{--transform-translate-x:1.25rem}
+.md\:hover\:translate-x-6:hover{--transform-translate-x:1.5rem}
+.md\:hover\:translate-x-8:hover{--transform-translate-x:2rem}
+.md\:hover\:translate-x-10:hover{--transform-translate-x:2.5rem}
+.md\:hover\:translate-x-12:hover{--transform-translate-x:3rem}
+.md\:hover\:translate-x-16:hover{--transform-translate-x:4rem}
+.md\:hover\:translate-x-20:hover{--transform-translate-x:5rem}
+.md\:hover\:translate-x-24:hover{--transform-translate-x:6rem}
+.md\:hover\:translate-x-32:hover{--transform-translate-x:8rem}
+.md\:hover\:translate-x-40:hover{--transform-translate-x:10rem}
+.md\:hover\:translate-x-48:hover{--transform-translate-x:12rem}
+.md\:hover\:translate-x-56:hover{--transform-translate-x:14rem}
+.md\:hover\:translate-x-64:hover{--transform-translate-x:16rem}
+.md\:hover\:translate-x-px:hover{--transform-translate-x:1px}
+.md\:hover\:-translate-x-1:hover{--transform-translate-x:-0.25rem}
+.md\:hover\:-translate-x-2:hover{--transform-translate-x:-0.5rem}
+.md\:hover\:-translate-x-3:hover{--transform-translate-x:-0.75rem}
+.md\:hover\:-translate-x-4:hover{--transform-translate-x:-1rem}
+.md\:hover\:-translate-x-5:hover{--transform-translate-x:-1.25rem}
+.md\:hover\:-translate-x-6:hover{--transform-translate-x:-1.5rem}
+.md\:hover\:-translate-x-8:hover{--transform-translate-x:-2rem}
+.md\:hover\:-translate-x-10:hover{--transform-translate-x:-2.5rem}
+.md\:hover\:-translate-x-12:hover{--transform-translate-x:-3rem}
+.md\:hover\:-translate-x-16:hover{--transform-translate-x:-4rem}
+.md\:hover\:-translate-x-20:hover{--transform-translate-x:-5rem}
+.md\:hover\:-translate-x-24:hover{--transform-translate-x:-6rem}
+.md\:hover\:-translate-x-32:hover{--transform-translate-x:-8rem}
+.md\:hover\:-translate-x-40:hover{--transform-translate-x:-10rem}
+.md\:hover\:-translate-x-48:hover{--transform-translate-x:-12rem}
+.md\:hover\:-translate-x-56:hover{--transform-translate-x:-14rem}
+.md\:hover\:-translate-x-64:hover{--transform-translate-x:-16rem}
+.md\:hover\:-translate-x-px:hover{--transform-translate-x:-1px}
+.md\:hover\:-translate-x-full:hover{--transform-translate-x:-100%}
+.md\:hover\:-translate-x-1\/2:hover{--transform-translate-x:-50%}
+.md\:hover\:translate-x-1\/2:hover{--transform-translate-x:50%}
+.md\:hover\:translate-x-full:hover{--transform-translate-x:100%}
+.md\:hover\:translate-y-0:hover{--transform-translate-y:0}
+.md\:hover\:translate-y-1:hover{--transform-translate-y:.25rem}
+.md\:hover\:translate-y-2:hover{--transform-translate-y:.5rem}
+.md\:hover\:translate-y-3:hover{--transform-translate-y:.75rem}
+.md\:hover\:translate-y-4:hover{--transform-translate-y:1rem}
+.md\:hover\:translate-y-5:hover{--transform-translate-y:1.25rem}
+.md\:hover\:translate-y-6:hover{--transform-translate-y:1.5rem}
+.md\:hover\:translate-y-8:hover{--transform-translate-y:2rem}
+.md\:hover\:translate-y-10:hover{--transform-translate-y:2.5rem}
+.md\:hover\:translate-y-12:hover{--transform-translate-y:3rem}
+.md\:hover\:translate-y-16:hover{--transform-translate-y:4rem}
+.md\:hover\:translate-y-20:hover{--transform-translate-y:5rem}
+.md\:hover\:translate-y-24:hover{--transform-translate-y:6rem}
+.md\:hover\:translate-y-32:hover{--transform-translate-y:8rem}
+.md\:hover\:translate-y-40:hover{--transform-translate-y:10rem}
+.md\:hover\:translate-y-48:hover{--transform-translate-y:12rem}
+.md\:hover\:translate-y-56:hover{--transform-translate-y:14rem}
+.md\:hover\:translate-y-64:hover{--transform-translate-y:16rem}
+.md\:hover\:translate-y-px:hover{--transform-translate-y:1px}
+.md\:hover\:-translate-y-1:hover{--transform-translate-y:-0.25rem}
+.md\:hover\:-translate-y-2:hover{--transform-translate-y:-0.5rem}
+.md\:hover\:-translate-y-3:hover{--transform-translate-y:-0.75rem}
+.md\:hover\:-translate-y-4:hover{--transform-translate-y:-1rem}
+.md\:hover\:-translate-y-5:hover{--transform-translate-y:-1.25rem}
+.md\:hover\:-translate-y-6:hover{--transform-translate-y:-1.5rem}
+.md\:hover\:-translate-y-8:hover{--transform-translate-y:-2rem}
+.md\:hover\:-translate-y-10:hover{--transform-translate-y:-2.5rem}
+.md\:hover\:-translate-y-12:hover{--transform-translate-y:-3rem}
+.md\:hover\:-translate-y-16:hover{--transform-translate-y:-4rem}
+.md\:hover\:-translate-y-20:hover{--transform-translate-y:-5rem}
+.md\:hover\:-translate-y-24:hover{--transform-translate-y:-6rem}
+.md\:hover\:-translate-y-32:hover{--transform-translate-y:-8rem}
+.md\:hover\:-translate-y-40:hover{--transform-translate-y:-10rem}
+.md\:hover\:-translate-y-48:hover{--transform-translate-y:-12rem}
+.md\:hover\:-translate-y-56:hover{--transform-translate-y:-14rem}
+.md\:hover\:-translate-y-64:hover{--transform-translate-y:-16rem}
+.md\:hover\:-translate-y-px:hover{--transform-translate-y:-1px}
+.md\:hover\:-translate-y-full:hover{--transform-translate-y:-100%}
+.md\:hover\:-translate-y-1\/2:hover{--transform-translate-y:-50%}
+.md\:hover\:translate-y-1\/2:hover{--transform-translate-y:50%}
+.md\:hover\:translate-y-full:hover{--transform-translate-y:100%}
 .md\:skew-x-0{--transform-skew-x:0}
 .md\:skew-x-3{--transform-skew-x:3deg}
 .md\:skew-x-6{--transform-skew-x:6deg}
@@ -15640,6 +16140,252 @@ img,video{max-width:100%;height:auto}
 .lg\:focus\:-rotate-180:focus{--transform-rotate:-180deg}
 .lg\:focus\:-rotate-90:focus{--transform-rotate:-90deg}
 .lg\:focus\:-rotate-45:focus{--transform-rotate:-45deg}
+.lg\:translate-x-0{--transform-translate-x:0}
+.lg\:translate-x-1{--transform-translate-x:.25rem}
+.lg\:translate-x-2{--transform-translate-x:.5rem}
+.lg\:translate-x-3{--transform-translate-x:.75rem}
+.lg\:translate-x-4{--transform-translate-x:1rem}
+.lg\:translate-x-5{--transform-translate-x:1.25rem}
+.lg\:translate-x-6{--transform-translate-x:1.5rem}
+.lg\:translate-x-8{--transform-translate-x:2rem}
+.lg\:translate-x-10{--transform-translate-x:2.5rem}
+.lg\:translate-x-12{--transform-translate-x:3rem}
+.lg\:translate-x-16{--transform-translate-x:4rem}
+.lg\:translate-x-20{--transform-translate-x:5rem}
+.lg\:translate-x-24{--transform-translate-x:6rem}
+.lg\:translate-x-32{--transform-translate-x:8rem}
+.lg\:translate-x-40{--transform-translate-x:10rem}
+.lg\:translate-x-48{--transform-translate-x:12rem}
+.lg\:translate-x-56{--transform-translate-x:14rem}
+.lg\:translate-x-64{--transform-translate-x:16rem}
+.lg\:translate-x-px{--transform-translate-x:1px}
+.lg\:-translate-x-1{--transform-translate-x:-0.25rem}
+.lg\:-translate-x-2{--transform-translate-x:-0.5rem}
+.lg\:-translate-x-3{--transform-translate-x:-0.75rem}
+.lg\:-translate-x-4{--transform-translate-x:-1rem}
+.lg\:-translate-x-5{--transform-translate-x:-1.25rem}
+.lg\:-translate-x-6{--transform-translate-x:-1.5rem}
+.lg\:-translate-x-8{--transform-translate-x:-2rem}
+.lg\:-translate-x-10{--transform-translate-x:-2.5rem}
+.lg\:-translate-x-12{--transform-translate-x:-3rem}
+.lg\:-translate-x-16{--transform-translate-x:-4rem}
+.lg\:-translate-x-20{--transform-translate-x:-5rem}
+.lg\:-translate-x-24{--transform-translate-x:-6rem}
+.lg\:-translate-x-32{--transform-translate-x:-8rem}
+.lg\:-translate-x-40{--transform-translate-x:-10rem}
+.lg\:-translate-x-48{--transform-translate-x:-12rem}
+.lg\:-translate-x-56{--transform-translate-x:-14rem}
+.lg\:-translate-x-64{--transform-translate-x:-16rem}
+.lg\:-translate-x-px{--transform-translate-x:-1px}
+.lg\:-translate-x-full{--transform-translate-x:-100%}
+.lg\:-translate-x-1\/2{--transform-translate-x:-50%}
+.lg\:translate-x-1\/2{--transform-translate-x:50%}
+.lg\:translate-x-full{--transform-translate-x:100%}
+.lg\:translate-y-0{--transform-translate-y:0}
+.lg\:translate-y-1{--transform-translate-y:.25rem}
+.lg\:translate-y-2{--transform-translate-y:.5rem}
+.lg\:translate-y-3{--transform-translate-y:.75rem}
+.lg\:translate-y-4{--transform-translate-y:1rem}
+.lg\:translate-y-5{--transform-translate-y:1.25rem}
+.lg\:translate-y-6{--transform-translate-y:1.5rem}
+.lg\:translate-y-8{--transform-translate-y:2rem}
+.lg\:translate-y-10{--transform-translate-y:2.5rem}
+.lg\:translate-y-12{--transform-translate-y:3rem}
+.lg\:translate-y-16{--transform-translate-y:4rem}
+.lg\:translate-y-20{--transform-translate-y:5rem}
+.lg\:translate-y-24{--transform-translate-y:6rem}
+.lg\:translate-y-32{--transform-translate-y:8rem}
+.lg\:translate-y-40{--transform-translate-y:10rem}
+.lg\:translate-y-48{--transform-translate-y:12rem}
+.lg\:translate-y-56{--transform-translate-y:14rem}
+.lg\:translate-y-64{--transform-translate-y:16rem}
+.lg\:translate-y-px{--transform-translate-y:1px}
+.lg\:-translate-y-1{--transform-translate-y:-0.25rem}
+.lg\:-translate-y-2{--transform-translate-y:-0.5rem}
+.lg\:-translate-y-3{--transform-translate-y:-0.75rem}
+.lg\:-translate-y-4{--transform-translate-y:-1rem}
+.lg\:-translate-y-5{--transform-translate-y:-1.25rem}
+.lg\:-translate-y-6{--transform-translate-y:-1.5rem}
+.lg\:-translate-y-8{--transform-translate-y:-2rem}
+.lg\:-translate-y-10{--transform-translate-y:-2.5rem}
+.lg\:-translate-y-12{--transform-translate-y:-3rem}
+.lg\:-translate-y-16{--transform-translate-y:-4rem}
+.lg\:-translate-y-20{--transform-translate-y:-5rem}
+.lg\:-translate-y-24{--transform-translate-y:-6rem}
+.lg\:-translate-y-32{--transform-translate-y:-8rem}
+.lg\:-translate-y-40{--transform-translate-y:-10rem}
+.lg\:-translate-y-48{--transform-translate-y:-12rem}
+.lg\:-translate-y-56{--transform-translate-y:-14rem}
+.lg\:-translate-y-64{--transform-translate-y:-16rem}
+.lg\:-translate-y-px{--transform-translate-y:-1px}
+.lg\:-translate-y-full{--transform-translate-y:-100%}
+.lg\:-translate-y-1\/2{--transform-translate-y:-50%}
+.lg\:translate-y-1\/2{--transform-translate-y:50%}
+.lg\:translate-y-full{--transform-translate-y:100%}
+.group:hover .lg\:group-hover\:translate-x-0{--transform-translate-x:0}
+.group:hover .lg\:group-hover\:translate-x-1{--transform-translate-x:.25rem}
+.group:hover .lg\:group-hover\:translate-x-2{--transform-translate-x:.5rem}
+.group:hover .lg\:group-hover\:translate-x-3{--transform-translate-x:.75rem}
+.group:hover .lg\:group-hover\:translate-x-4{--transform-translate-x:1rem}
+.group:hover .lg\:group-hover\:translate-x-5{--transform-translate-x:1.25rem}
+.group:hover .lg\:group-hover\:translate-x-6{--transform-translate-x:1.5rem}
+.group:hover .lg\:group-hover\:translate-x-8{--transform-translate-x:2rem}
+.group:hover .lg\:group-hover\:translate-x-10{--transform-translate-x:2.5rem}
+.group:hover .lg\:group-hover\:translate-x-12{--transform-translate-x:3rem}
+.group:hover .lg\:group-hover\:translate-x-16{--transform-translate-x:4rem}
+.group:hover .lg\:group-hover\:translate-x-20{--transform-translate-x:5rem}
+.group:hover .lg\:group-hover\:translate-x-24{--transform-translate-x:6rem}
+.group:hover .lg\:group-hover\:translate-x-32{--transform-translate-x:8rem}
+.group:hover .lg\:group-hover\:translate-x-40{--transform-translate-x:10rem}
+.group:hover .lg\:group-hover\:translate-x-48{--transform-translate-x:12rem}
+.group:hover .lg\:group-hover\:translate-x-56{--transform-translate-x:14rem}
+.group:hover .lg\:group-hover\:translate-x-64{--transform-translate-x:16rem}
+.group:hover .lg\:group-hover\:translate-x-px{--transform-translate-x:1px}
+.group:hover .lg\:group-hover\:-translate-x-1{--transform-translate-x:-0.25rem}
+.group:hover .lg\:group-hover\:-translate-x-2{--transform-translate-x:-0.5rem}
+.group:hover .lg\:group-hover\:-translate-x-3{--transform-translate-x:-0.75rem}
+.group:hover .lg\:group-hover\:-translate-x-4{--transform-translate-x:-1rem}
+.group:hover .lg\:group-hover\:-translate-x-5{--transform-translate-x:-1.25rem}
+.group:hover .lg\:group-hover\:-translate-x-6{--transform-translate-x:-1.5rem}
+.group:hover .lg\:group-hover\:-translate-x-8{--transform-translate-x:-2rem}
+.group:hover .lg\:group-hover\:-translate-x-10{--transform-translate-x:-2.5rem}
+.group:hover .lg\:group-hover\:-translate-x-12{--transform-translate-x:-3rem}
+.group:hover .lg\:group-hover\:-translate-x-16{--transform-translate-x:-4rem}
+.group:hover .lg\:group-hover\:-translate-x-20{--transform-translate-x:-5rem}
+.group:hover .lg\:group-hover\:-translate-x-24{--transform-translate-x:-6rem}
+.group:hover .lg\:group-hover\:-translate-x-32{--transform-translate-x:-8rem}
+.group:hover .lg\:group-hover\:-translate-x-40{--transform-translate-x:-10rem}
+.group:hover .lg\:group-hover\:-translate-x-48{--transform-translate-x:-12rem}
+.group:hover .lg\:group-hover\:-translate-x-56{--transform-translate-x:-14rem}
+.group:hover .lg\:group-hover\:-translate-x-64{--transform-translate-x:-16rem}
+.group:hover .lg\:group-hover\:-translate-x-px{--transform-translate-x:-1px}
+.group:hover .lg\:group-hover\:-translate-x-full{--transform-translate-x:-100%}
+.group:hover .lg\:group-hover\:-translate-x-1\/2{--transform-translate-x:-50%}
+.group:hover .lg\:group-hover\:translate-x-1\/2{--transform-translate-x:50%}
+.group:hover .lg\:group-hover\:translate-x-full{--transform-translate-x:100%}
+.group:hover .lg\:group-hover\:translate-y-0{--transform-translate-y:0}
+.group:hover .lg\:group-hover\:translate-y-1{--transform-translate-y:.25rem}
+.group:hover .lg\:group-hover\:translate-y-2{--transform-translate-y:.5rem}
+.group:hover .lg\:group-hover\:translate-y-3{--transform-translate-y:.75rem}
+.group:hover .lg\:group-hover\:translate-y-4{--transform-translate-y:1rem}
+.group:hover .lg\:group-hover\:translate-y-5{--transform-translate-y:1.25rem}
+.group:hover .lg\:group-hover\:translate-y-6{--transform-translate-y:1.5rem}
+.group:hover .lg\:group-hover\:translate-y-8{--transform-translate-y:2rem}
+.group:hover .lg\:group-hover\:translate-y-10{--transform-translate-y:2.5rem}
+.group:hover .lg\:group-hover\:translate-y-12{--transform-translate-y:3rem}
+.group:hover .lg\:group-hover\:translate-y-16{--transform-translate-y:4rem}
+.group:hover .lg\:group-hover\:translate-y-20{--transform-translate-y:5rem}
+.group:hover .lg\:group-hover\:translate-y-24{--transform-translate-y:6rem}
+.group:hover .lg\:group-hover\:translate-y-32{--transform-translate-y:8rem}
+.group:hover .lg\:group-hover\:translate-y-40{--transform-translate-y:10rem}
+.group:hover .lg\:group-hover\:translate-y-48{--transform-translate-y:12rem}
+.group:hover .lg\:group-hover\:translate-y-56{--transform-translate-y:14rem}
+.group:hover .lg\:group-hover\:translate-y-64{--transform-translate-y:16rem}
+.group:hover .lg\:group-hover\:translate-y-px{--transform-translate-y:1px}
+.group:hover .lg\:group-hover\:-translate-y-1{--transform-translate-y:-0.25rem}
+.group:hover .lg\:group-hover\:-translate-y-2{--transform-translate-y:-0.5rem}
+.group:hover .lg\:group-hover\:-translate-y-3{--transform-translate-y:-0.75rem}
+.group:hover .lg\:group-hover\:-translate-y-4{--transform-translate-y:-1rem}
+.group:hover .lg\:group-hover\:-translate-y-5{--transform-translate-y:-1.25rem}
+.group:hover .lg\:group-hover\:-translate-y-6{--transform-translate-y:-1.5rem}
+.group:hover .lg\:group-hover\:-translate-y-8{--transform-translate-y:-2rem}
+.group:hover .lg\:group-hover\:-translate-y-10{--transform-translate-y:-2.5rem}
+.group:hover .lg\:group-hover\:-translate-y-12{--transform-translate-y:-3rem}
+.group:hover .lg\:group-hover\:-translate-y-16{--transform-translate-y:-4rem}
+.group:hover .lg\:group-hover\:-translate-y-20{--transform-translate-y:-5rem}
+.group:hover .lg\:group-hover\:-translate-y-24{--transform-translate-y:-6rem}
+.group:hover .lg\:group-hover\:-translate-y-32{--transform-translate-y:-8rem}
+.group:hover .lg\:group-hover\:-translate-y-40{--transform-translate-y:-10rem}
+.group:hover .lg\:group-hover\:-translate-y-48{--transform-translate-y:-12rem}
+.group:hover .lg\:group-hover\:-translate-y-56{--transform-translate-y:-14rem}
+.group:hover .lg\:group-hover\:-translate-y-64{--transform-translate-y:-16rem}
+.group:hover .lg\:group-hover\:-translate-y-px{--transform-translate-y:-1px}
+.group:hover .lg\:group-hover\:-translate-y-full{--transform-translate-y:-100%}
+.group:hover .lg\:group-hover\:-translate-y-1\/2{--transform-translate-y:-50%}
+.group:hover .lg\:group-hover\:translate-y-1\/2{--transform-translate-y:50%}
+.group:hover .lg\:group-hover\:translate-y-full{--transform-translate-y:100%}
+.lg\:hover\:translate-x-0:hover{--transform-translate-x:0}
+.lg\:hover\:translate-x-1:hover{--transform-translate-x:.25rem}
+.lg\:hover\:translate-x-2:hover{--transform-translate-x:.5rem}
+.lg\:hover\:translate-x-3:hover{--transform-translate-x:.75rem}
+.lg\:hover\:translate-x-4:hover{--transform-translate-x:1rem}
+.lg\:hover\:translate-x-5:hover{--transform-translate-x:1.25rem}
+.lg\:hover\:translate-x-6:hover{--transform-translate-x:1.5rem}
+.lg\:hover\:translate-x-8:hover{--transform-translate-x:2rem}
+.lg\:hover\:translate-x-10:hover{--transform-translate-x:2.5rem}
+.lg\:hover\:translate-x-12:hover{--transform-translate-x:3rem}
+.lg\:hover\:translate-x-16:hover{--transform-translate-x:4rem}
+.lg\:hover\:translate-x-20:hover{--transform-translate-x:5rem}
+.lg\:hover\:translate-x-24:hover{--transform-translate-x:6rem}
+.lg\:hover\:translate-x-32:hover{--transform-translate-x:8rem}
+.lg\:hover\:translate-x-40:hover{--transform-translate-x:10rem}
+.lg\:hover\:translate-x-48:hover{--transform-translate-x:12rem}
+.lg\:hover\:translate-x-56:hover{--transform-translate-x:14rem}
+.lg\:hover\:translate-x-64:hover{--transform-translate-x:16rem}
+.lg\:hover\:translate-x-px:hover{--transform-translate-x:1px}
+.lg\:hover\:-translate-x-1:hover{--transform-translate-x:-0.25rem}
+.lg\:hover\:-translate-x-2:hover{--transform-translate-x:-0.5rem}
+.lg\:hover\:-translate-x-3:hover{--transform-translate-x:-0.75rem}
+.lg\:hover\:-translate-x-4:hover{--transform-translate-x:-1rem}
+.lg\:hover\:-translate-x-5:hover{--transform-translate-x:-1.25rem}
+.lg\:hover\:-translate-x-6:hover{--transform-translate-x:-1.5rem}
+.lg\:hover\:-translate-x-8:hover{--transform-translate-x:-2rem}
+.lg\:hover\:-translate-x-10:hover{--transform-translate-x:-2.5rem}
+.lg\:hover\:-translate-x-12:hover{--transform-translate-x:-3rem}
+.lg\:hover\:-translate-x-16:hover{--transform-translate-x:-4rem}
+.lg\:hover\:-translate-x-20:hover{--transform-translate-x:-5rem}
+.lg\:hover\:-translate-x-24:hover{--transform-translate-x:-6rem}
+.lg\:hover\:-translate-x-32:hover{--transform-translate-x:-8rem}
+.lg\:hover\:-translate-x-40:hover{--transform-translate-x:-10rem}
+.lg\:hover\:-translate-x-48:hover{--transform-translate-x:-12rem}
+.lg\:hover\:-translate-x-56:hover{--transform-translate-x:-14rem}
+.lg\:hover\:-translate-x-64:hover{--transform-translate-x:-16rem}
+.lg\:hover\:-translate-x-px:hover{--transform-translate-x:-1px}
+.lg\:hover\:-translate-x-full:hover{--transform-translate-x:-100%}
+.lg\:hover\:-translate-x-1\/2:hover{--transform-translate-x:-50%}
+.lg\:hover\:translate-x-1\/2:hover{--transform-translate-x:50%}
+.lg\:hover\:translate-x-full:hover{--transform-translate-x:100%}
+.lg\:hover\:translate-y-0:hover{--transform-translate-y:0}
+.lg\:hover\:translate-y-1:hover{--transform-translate-y:.25rem}
+.lg\:hover\:translate-y-2:hover{--transform-translate-y:.5rem}
+.lg\:hover\:translate-y-3:hover{--transform-translate-y:.75rem}
+.lg\:hover\:translate-y-4:hover{--transform-translate-y:1rem}
+.lg\:hover\:translate-y-5:hover{--transform-translate-y:1.25rem}
+.lg\:hover\:translate-y-6:hover{--transform-translate-y:1.5rem}
+.lg\:hover\:translate-y-8:hover{--transform-translate-y:2rem}
+.lg\:hover\:translate-y-10:hover{--transform-translate-y:2.5rem}
+.lg\:hover\:translate-y-12:hover{--transform-translate-y:3rem}
+.lg\:hover\:translate-y-16:hover{--transform-translate-y:4rem}
+.lg\:hover\:translate-y-20:hover{--transform-translate-y:5rem}
+.lg\:hover\:translate-y-24:hover{--transform-translate-y:6rem}
+.lg\:hover\:translate-y-32:hover{--transform-translate-y:8rem}
+.lg\:hover\:translate-y-40:hover{--transform-translate-y:10rem}
+.lg\:hover\:translate-y-48:hover{--transform-translate-y:12rem}
+.lg\:hover\:translate-y-56:hover{--transform-translate-y:14rem}
+.lg\:hover\:translate-y-64:hover{--transform-translate-y:16rem}
+.lg\:hover\:translate-y-px:hover{--transform-translate-y:1px}
+.lg\:hover\:-translate-y-1:hover{--transform-translate-y:-0.25rem}
+.lg\:hover\:-translate-y-2:hover{--transform-translate-y:-0.5rem}
+.lg\:hover\:-translate-y-3:hover{--transform-translate-y:-0.75rem}
+.lg\:hover\:-translate-y-4:hover{--transform-translate-y:-1rem}
+.lg\:hover\:-translate-y-5:hover{--transform-translate-y:-1.25rem}
+.lg\:hover\:-translate-y-6:hover{--transform-translate-y:-1.5rem}
+.lg\:hover\:-translate-y-8:hover{--transform-translate-y:-2rem}
+.lg\:hover\:-translate-y-10:hover{--transform-translate-y:-2.5rem}
+.lg\:hover\:-translate-y-12:hover{--transform-translate-y:-3rem}
+.lg\:hover\:-translate-y-16:hover{--transform-translate-y:-4rem}
+.lg\:hover\:-translate-y-20:hover{--transform-translate-y:-5rem}
+.lg\:hover\:-translate-y-24:hover{--transform-translate-y:-6rem}
+.lg\:hover\:-translate-y-32:hover{--transform-translate-y:-8rem}
+.lg\:hover\:-translate-y-40:hover{--transform-translate-y:-10rem}
+.lg\:hover\:-translate-y-48:hover{--transform-translate-y:-12rem}
+.lg\:hover\:-translate-y-56:hover{--transform-translate-y:-14rem}
+.lg\:hover\:-translate-y-64:hover{--transform-translate-y:-16rem}
+.lg\:hover\:-translate-y-px:hover{--transform-translate-y:-1px}
+.lg\:hover\:-translate-y-full:hover{--transform-translate-y:-100%}
+.lg\:hover\:-translate-y-1\/2:hover{--transform-translate-y:-50%}
+.lg\:hover\:translate-y-1\/2:hover{--transform-translate-y:50%}
+.lg\:hover\:translate-y-full:hover{--transform-translate-y:100%}
 .lg\:skew-x-0{--transform-skew-x:0}
 .lg\:skew-x-3{--transform-skew-x:3deg}
 .lg\:skew-x-6{--transform-skew-x:6deg}
@@ -19405,6 +20151,252 @@ img,video{max-width:100%;height:auto}
 .xl\:focus\:-rotate-180:focus{--transform-rotate:-180deg}
 .xl\:focus\:-rotate-90:focus{--transform-rotate:-90deg}
 .xl\:focus\:-rotate-45:focus{--transform-rotate:-45deg}
+.xl\:translate-x-0{--transform-translate-x:0}
+.xl\:translate-x-1{--transform-translate-x:.25rem}
+.xl\:translate-x-2{--transform-translate-x:.5rem}
+.xl\:translate-x-3{--transform-translate-x:.75rem}
+.xl\:translate-x-4{--transform-translate-x:1rem}
+.xl\:translate-x-5{--transform-translate-x:1.25rem}
+.xl\:translate-x-6{--transform-translate-x:1.5rem}
+.xl\:translate-x-8{--transform-translate-x:2rem}
+.xl\:translate-x-10{--transform-translate-x:2.5rem}
+.xl\:translate-x-12{--transform-translate-x:3rem}
+.xl\:translate-x-16{--transform-translate-x:4rem}
+.xl\:translate-x-20{--transform-translate-x:5rem}
+.xl\:translate-x-24{--transform-translate-x:6rem}
+.xl\:translate-x-32{--transform-translate-x:8rem}
+.xl\:translate-x-40{--transform-translate-x:10rem}
+.xl\:translate-x-48{--transform-translate-x:12rem}
+.xl\:translate-x-56{--transform-translate-x:14rem}
+.xl\:translate-x-64{--transform-translate-x:16rem}
+.xl\:translate-x-px{--transform-translate-x:1px}
+.xl\:-translate-x-1{--transform-translate-x:-0.25rem}
+.xl\:-translate-x-2{--transform-translate-x:-0.5rem}
+.xl\:-translate-x-3{--transform-translate-x:-0.75rem}
+.xl\:-translate-x-4{--transform-translate-x:-1rem}
+.xl\:-translate-x-5{--transform-translate-x:-1.25rem}
+.xl\:-translate-x-6{--transform-translate-x:-1.5rem}
+.xl\:-translate-x-8{--transform-translate-x:-2rem}
+.xl\:-translate-x-10{--transform-translate-x:-2.5rem}
+.xl\:-translate-x-12{--transform-translate-x:-3rem}
+.xl\:-translate-x-16{--transform-translate-x:-4rem}
+.xl\:-translate-x-20{--transform-translate-x:-5rem}
+.xl\:-translate-x-24{--transform-translate-x:-6rem}
+.xl\:-translate-x-32{--transform-translate-x:-8rem}
+.xl\:-translate-x-40{--transform-translate-x:-10rem}
+.xl\:-translate-x-48{--transform-translate-x:-12rem}
+.xl\:-translate-x-56{--transform-translate-x:-14rem}
+.xl\:-translate-x-64{--transform-translate-x:-16rem}
+.xl\:-translate-x-px{--transform-translate-x:-1px}
+.xl\:-translate-x-full{--transform-translate-x:-100%}
+.xl\:-translate-x-1\/2{--transform-translate-x:-50%}
+.xl\:translate-x-1\/2{--transform-translate-x:50%}
+.xl\:translate-x-full{--transform-translate-x:100%}
+.xl\:translate-y-0{--transform-translate-y:0}
+.xl\:translate-y-1{--transform-translate-y:.25rem}
+.xl\:translate-y-2{--transform-translate-y:.5rem}
+.xl\:translate-y-3{--transform-translate-y:.75rem}
+.xl\:translate-y-4{--transform-translate-y:1rem}
+.xl\:translate-y-5{--transform-translate-y:1.25rem}
+.xl\:translate-y-6{--transform-translate-y:1.5rem}
+.xl\:translate-y-8{--transform-translate-y:2rem}
+.xl\:translate-y-10{--transform-translate-y:2.5rem}
+.xl\:translate-y-12{--transform-translate-y:3rem}
+.xl\:translate-y-16{--transform-translate-y:4rem}
+.xl\:translate-y-20{--transform-translate-y:5rem}
+.xl\:translate-y-24{--transform-translate-y:6rem}
+.xl\:translate-y-32{--transform-translate-y:8rem}
+.xl\:translate-y-40{--transform-translate-y:10rem}
+.xl\:translate-y-48{--transform-translate-y:12rem}
+.xl\:translate-y-56{--transform-translate-y:14rem}
+.xl\:translate-y-64{--transform-translate-y:16rem}
+.xl\:translate-y-px{--transform-translate-y:1px}
+.xl\:-translate-y-1{--transform-translate-y:-0.25rem}
+.xl\:-translate-y-2{--transform-translate-y:-0.5rem}
+.xl\:-translate-y-3{--transform-translate-y:-0.75rem}
+.xl\:-translate-y-4{--transform-translate-y:-1rem}
+.xl\:-translate-y-5{--transform-translate-y:-1.25rem}
+.xl\:-translate-y-6{--transform-translate-y:-1.5rem}
+.xl\:-translate-y-8{--transform-translate-y:-2rem}
+.xl\:-translate-y-10{--transform-translate-y:-2.5rem}
+.xl\:-translate-y-12{--transform-translate-y:-3rem}
+.xl\:-translate-y-16{--transform-translate-y:-4rem}
+.xl\:-translate-y-20{--transform-translate-y:-5rem}
+.xl\:-translate-y-24{--transform-translate-y:-6rem}
+.xl\:-translate-y-32{--transform-translate-y:-8rem}
+.xl\:-translate-y-40{--transform-translate-y:-10rem}
+.xl\:-translate-y-48{--transform-translate-y:-12rem}
+.xl\:-translate-y-56{--transform-translate-y:-14rem}
+.xl\:-translate-y-64{--transform-translate-y:-16rem}
+.xl\:-translate-y-px{--transform-translate-y:-1px}
+.xl\:-translate-y-full{--transform-translate-y:-100%}
+.xl\:-translate-y-1\/2{--transform-translate-y:-50%}
+.xl\:translate-y-1\/2{--transform-translate-y:50%}
+.xl\:translate-y-full{--transform-translate-y:100%}
+.group:hover .xl\:group-hover\:translate-x-0{--transform-translate-x:0}
+.group:hover .xl\:group-hover\:translate-x-1{--transform-translate-x:.25rem}
+.group:hover .xl\:group-hover\:translate-x-2{--transform-translate-x:.5rem}
+.group:hover .xl\:group-hover\:translate-x-3{--transform-translate-x:.75rem}
+.group:hover .xl\:group-hover\:translate-x-4{--transform-translate-x:1rem}
+.group:hover .xl\:group-hover\:translate-x-5{--transform-translate-x:1.25rem}
+.group:hover .xl\:group-hover\:translate-x-6{--transform-translate-x:1.5rem}
+.group:hover .xl\:group-hover\:translate-x-8{--transform-translate-x:2rem}
+.group:hover .xl\:group-hover\:translate-x-10{--transform-translate-x:2.5rem}
+.group:hover .xl\:group-hover\:translate-x-12{--transform-translate-x:3rem}
+.group:hover .xl\:group-hover\:translate-x-16{--transform-translate-x:4rem}
+.group:hover .xl\:group-hover\:translate-x-20{--transform-translate-x:5rem}
+.group:hover .xl\:group-hover\:translate-x-24{--transform-translate-x:6rem}
+.group:hover .xl\:group-hover\:translate-x-32{--transform-translate-x:8rem}
+.group:hover .xl\:group-hover\:translate-x-40{--transform-translate-x:10rem}
+.group:hover .xl\:group-hover\:translate-x-48{--transform-translate-x:12rem}
+.group:hover .xl\:group-hover\:translate-x-56{--transform-translate-x:14rem}
+.group:hover .xl\:group-hover\:translate-x-64{--transform-translate-x:16rem}
+.group:hover .xl\:group-hover\:translate-x-px{--transform-translate-x:1px}
+.group:hover .xl\:group-hover\:-translate-x-1{--transform-translate-x:-0.25rem}
+.group:hover .xl\:group-hover\:-translate-x-2{--transform-translate-x:-0.5rem}
+.group:hover .xl\:group-hover\:-translate-x-3{--transform-translate-x:-0.75rem}
+.group:hover .xl\:group-hover\:-translate-x-4{--transform-translate-x:-1rem}
+.group:hover .xl\:group-hover\:-translate-x-5{--transform-translate-x:-1.25rem}
+.group:hover .xl\:group-hover\:-translate-x-6{--transform-translate-x:-1.5rem}
+.group:hover .xl\:group-hover\:-translate-x-8{--transform-translate-x:-2rem}
+.group:hover .xl\:group-hover\:-translate-x-10{--transform-translate-x:-2.5rem}
+.group:hover .xl\:group-hover\:-translate-x-12{--transform-translate-x:-3rem}
+.group:hover .xl\:group-hover\:-translate-x-16{--transform-translate-x:-4rem}
+.group:hover .xl\:group-hover\:-translate-x-20{--transform-translate-x:-5rem}
+.group:hover .xl\:group-hover\:-translate-x-24{--transform-translate-x:-6rem}
+.group:hover .xl\:group-hover\:-translate-x-32{--transform-translate-x:-8rem}
+.group:hover .xl\:group-hover\:-translate-x-40{--transform-translate-x:-10rem}
+.group:hover .xl\:group-hover\:-translate-x-48{--transform-translate-x:-12rem}
+.group:hover .xl\:group-hover\:-translate-x-56{--transform-translate-x:-14rem}
+.group:hover .xl\:group-hover\:-translate-x-64{--transform-translate-x:-16rem}
+.group:hover .xl\:group-hover\:-translate-x-px{--transform-translate-x:-1px}
+.group:hover .xl\:group-hover\:-translate-x-full{--transform-translate-x:-100%}
+.group:hover .xl\:group-hover\:-translate-x-1\/2{--transform-translate-x:-50%}
+.group:hover .xl\:group-hover\:translate-x-1\/2{--transform-translate-x:50%}
+.group:hover .xl\:group-hover\:translate-x-full{--transform-translate-x:100%}
+.group:hover .xl\:group-hover\:translate-y-0{--transform-translate-y:0}
+.group:hover .xl\:group-hover\:translate-y-1{--transform-translate-y:.25rem}
+.group:hover .xl\:group-hover\:translate-y-2{--transform-translate-y:.5rem}
+.group:hover .xl\:group-hover\:translate-y-3{--transform-translate-y:.75rem}
+.group:hover .xl\:group-hover\:translate-y-4{--transform-translate-y:1rem}
+.group:hover .xl\:group-hover\:translate-y-5{--transform-translate-y:1.25rem}
+.group:hover .xl\:group-hover\:translate-y-6{--transform-translate-y:1.5rem}
+.group:hover .xl\:group-hover\:translate-y-8{--transform-translate-y:2rem}
+.group:hover .xl\:group-hover\:translate-y-10{--transform-translate-y:2.5rem}
+.group:hover .xl\:group-hover\:translate-y-12{--transform-translate-y:3rem}
+.group:hover .xl\:group-hover\:translate-y-16{--transform-translate-y:4rem}
+.group:hover .xl\:group-hover\:translate-y-20{--transform-translate-y:5rem}
+.group:hover .xl\:group-hover\:translate-y-24{--transform-translate-y:6rem}
+.group:hover .xl\:group-hover\:translate-y-32{--transform-translate-y:8rem}
+.group:hover .xl\:group-hover\:translate-y-40{--transform-translate-y:10rem}
+.group:hover .xl\:group-hover\:translate-y-48{--transform-translate-y:12rem}
+.group:hover .xl\:group-hover\:translate-y-56{--transform-translate-y:14rem}
+.group:hover .xl\:group-hover\:translate-y-64{--transform-translate-y:16rem}
+.group:hover .xl\:group-hover\:translate-y-px{--transform-translate-y:1px}
+.group:hover .xl\:group-hover\:-translate-y-1{--transform-translate-y:-0.25rem}
+.group:hover .xl\:group-hover\:-translate-y-2{--transform-translate-y:-0.5rem}
+.group:hover .xl\:group-hover\:-translate-y-3{--transform-translate-y:-0.75rem}
+.group:hover .xl\:group-hover\:-translate-y-4{--transform-translate-y:-1rem}
+.group:hover .xl\:group-hover\:-translate-y-5{--transform-translate-y:-1.25rem}
+.group:hover .xl\:group-hover\:-translate-y-6{--transform-translate-y:-1.5rem}
+.group:hover .xl\:group-hover\:-translate-y-8{--transform-translate-y:-2rem}
+.group:hover .xl\:group-hover\:-translate-y-10{--transform-translate-y:-2.5rem}
+.group:hover .xl\:group-hover\:-translate-y-12{--transform-translate-y:-3rem}
+.group:hover .xl\:group-hover\:-translate-y-16{--transform-translate-y:-4rem}
+.group:hover .xl\:group-hover\:-translate-y-20{--transform-translate-y:-5rem}
+.group:hover .xl\:group-hover\:-translate-y-24{--transform-translate-y:-6rem}
+.group:hover .xl\:group-hover\:-translate-y-32{--transform-translate-y:-8rem}
+.group:hover .xl\:group-hover\:-translate-y-40{--transform-translate-y:-10rem}
+.group:hover .xl\:group-hover\:-translate-y-48{--transform-translate-y:-12rem}
+.group:hover .xl\:group-hover\:-translate-y-56{--transform-translate-y:-14rem}
+.group:hover .xl\:group-hover\:-translate-y-64{--transform-translate-y:-16rem}
+.group:hover .xl\:group-hover\:-translate-y-px{--transform-translate-y:-1px}
+.group:hover .xl\:group-hover\:-translate-y-full{--transform-translate-y:-100%}
+.group:hover .xl\:group-hover\:-translate-y-1\/2{--transform-translate-y:-50%}
+.group:hover .xl\:group-hover\:translate-y-1\/2{--transform-translate-y:50%}
+.group:hover .xl\:group-hover\:translate-y-full{--transform-translate-y:100%}
+.xl\:hover\:translate-x-0:hover{--transform-translate-x:0}
+.xl\:hover\:translate-x-1:hover{--transform-translate-x:.25rem}
+.xl\:hover\:translate-x-2:hover{--transform-translate-x:.5rem}
+.xl\:hover\:translate-x-3:hover{--transform-translate-x:.75rem}
+.xl\:hover\:translate-x-4:hover{--transform-translate-x:1rem}
+.xl\:hover\:translate-x-5:hover{--transform-translate-x:1.25rem}
+.xl\:hover\:translate-x-6:hover{--transform-translate-x:1.5rem}
+.xl\:hover\:translate-x-8:hover{--transform-translate-x:2rem}
+.xl\:hover\:translate-x-10:hover{--transform-translate-x:2.5rem}
+.xl\:hover\:translate-x-12:hover{--transform-translate-x:3rem}
+.xl\:hover\:translate-x-16:hover{--transform-translate-x:4rem}
+.xl\:hover\:translate-x-20:hover{--transform-translate-x:5rem}
+.xl\:hover\:translate-x-24:hover{--transform-translate-x:6rem}
+.xl\:hover\:translate-x-32:hover{--transform-translate-x:8rem}
+.xl\:hover\:translate-x-40:hover{--transform-translate-x:10rem}
+.xl\:hover\:translate-x-48:hover{--transform-translate-x:12rem}
+.xl\:hover\:translate-x-56:hover{--transform-translate-x:14rem}
+.xl\:hover\:translate-x-64:hover{--transform-translate-x:16rem}
+.xl\:hover\:translate-x-px:hover{--transform-translate-x:1px}
+.xl\:hover\:-translate-x-1:hover{--transform-translate-x:-0.25rem}
+.xl\:hover\:-translate-x-2:hover{--transform-translate-x:-0.5rem}
+.xl\:hover\:-translate-x-3:hover{--transform-translate-x:-0.75rem}
+.xl\:hover\:-translate-x-4:hover{--transform-translate-x:-1rem}
+.xl\:hover\:-translate-x-5:hover{--transform-translate-x:-1.25rem}
+.xl\:hover\:-translate-x-6:hover{--transform-translate-x:-1.5rem}
+.xl\:hover\:-translate-x-8:hover{--transform-translate-x:-2rem}
+.xl\:hover\:-translate-x-10:hover{--transform-translate-x:-2.5rem}
+.xl\:hover\:-translate-x-12:hover{--transform-translate-x:-3rem}
+.xl\:hover\:-translate-x-16:hover{--transform-translate-x:-4rem}
+.xl\:hover\:-translate-x-20:hover{--transform-translate-x:-5rem}
+.xl\:hover\:-translate-x-24:hover{--transform-translate-x:-6rem}
+.xl\:hover\:-translate-x-32:hover{--transform-translate-x:-8rem}
+.xl\:hover\:-translate-x-40:hover{--transform-translate-x:-10rem}
+.xl\:hover\:-translate-x-48:hover{--transform-translate-x:-12rem}
+.xl\:hover\:-translate-x-56:hover{--transform-translate-x:-14rem}
+.xl\:hover\:-translate-x-64:hover{--transform-translate-x:-16rem}
+.xl\:hover\:-translate-x-px:hover{--transform-translate-x:-1px}
+.xl\:hover\:-translate-x-full:hover{--transform-translate-x:-100%}
+.xl\:hover\:-translate-x-1\/2:hover{--transform-translate-x:-50%}
+.xl\:hover\:translate-x-1\/2:hover{--transform-translate-x:50%}
+.xl\:hover\:translate-x-full:hover{--transform-translate-x:100%}
+.xl\:hover\:translate-y-0:hover{--transform-translate-y:0}
+.xl\:hover\:translate-y-1:hover{--transform-translate-y:.25rem}
+.xl\:hover\:translate-y-2:hover{--transform-translate-y:.5rem}
+.xl\:hover\:translate-y-3:hover{--transform-translate-y:.75rem}
+.xl\:hover\:translate-y-4:hover{--transform-translate-y:1rem}
+.xl\:hover\:translate-y-5:hover{--transform-translate-y:1.25rem}
+.xl\:hover\:translate-y-6:hover{--transform-translate-y:1.5rem}
+.xl\:hover\:translate-y-8:hover{--transform-translate-y:2rem}
+.xl\:hover\:translate-y-10:hover{--transform-translate-y:2.5rem}
+.xl\:hover\:translate-y-12:hover{--transform-translate-y:3rem}
+.xl\:hover\:translate-y-16:hover{--transform-translate-y:4rem}
+.xl\:hover\:translate-y-20:hover{--transform-translate-y:5rem}
+.xl\:hover\:translate-y-24:hover{--transform-translate-y:6rem}
+.xl\:hover\:translate-y-32:hover{--transform-translate-y:8rem}
+.xl\:hover\:translate-y-40:hover{--transform-translate-y:10rem}
+.xl\:hover\:translate-y-48:hover{--transform-translate-y:12rem}
+.xl\:hover\:translate-y-56:hover{--transform-translate-y:14rem}
+.xl\:hover\:translate-y-64:hover{--transform-translate-y:16rem}
+.xl\:hover\:translate-y-px:hover{--transform-translate-y:1px}
+.xl\:hover\:-translate-y-1:hover{--transform-translate-y:-0.25rem}
+.xl\:hover\:-translate-y-2:hover{--transform-translate-y:-0.5rem}
+.xl\:hover\:-translate-y-3:hover{--transform-translate-y:-0.75rem}
+.xl\:hover\:-translate-y-4:hover{--transform-translate-y:-1rem}
+.xl\:hover\:-translate-y-5:hover{--transform-translate-y:-1.25rem}
+.xl\:hover\:-translate-y-6:hover{--transform-translate-y:-1.5rem}
+.xl\:hover\:-translate-y-8:hover{--transform-translate-y:-2rem}
+.xl\:hover\:-translate-y-10:hover{--transform-translate-y:-2.5rem}
+.xl\:hover\:-translate-y-12:hover{--transform-translate-y:-3rem}
+.xl\:hover\:-translate-y-16:hover{--transform-translate-y:-4rem}
+.xl\:hover\:-translate-y-20:hover{--transform-translate-y:-5rem}
+.xl\:hover\:-translate-y-24:hover{--transform-translate-y:-6rem}
+.xl\:hover\:-translate-y-32:hover{--transform-translate-y:-8rem}
+.xl\:hover\:-translate-y-40:hover{--transform-translate-y:-10rem}
+.xl\:hover\:-translate-y-48:hover{--transform-translate-y:-12rem}
+.xl\:hover\:-translate-y-56:hover{--transform-translate-y:-14rem}
+.xl\:hover\:-translate-y-64:hover{--transform-translate-y:-16rem}
+.xl\:hover\:-translate-y-px:hover{--transform-translate-y:-1px}
+.xl\:hover\:-translate-y-full:hover{--transform-translate-y:-100%}
+.xl\:hover\:-translate-y-1\/2:hover{--transform-translate-y:-50%}
+.xl\:hover\:translate-y-1\/2:hover{--transform-translate-y:50%}
+.xl\:hover\:translate-y-full:hover{--transform-translate-y:100%}
 .xl\:skew-x-0{--transform-skew-x:0}
 .xl\:skew-x-3{--transform-skew-x:3deg}
 .xl\:skew-x-6{--transform-skew-x:6deg}

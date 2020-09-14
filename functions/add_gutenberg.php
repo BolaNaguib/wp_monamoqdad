@@ -34,6 +34,8 @@ function my_acf_init()
         add_guttenberg_block('contact');
         add_guttenberg_block('rotateblock');
         add_guttenberg_block('products');
+        add_guttenberg_block('single');
+        add_guttenberg_block('card');
     }
 }
 function add_guttenberg_block($blockname)

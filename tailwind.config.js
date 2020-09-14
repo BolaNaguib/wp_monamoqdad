@@ -26,6 +26,7 @@ module.exports = {
 		zIndex: ["responsive", "hover"],
 		borderRadius: ["responsive", "hover"],
 		opacity: ["group-hover"],
+		margin: ["group-hover"],
 		scale: ["group-hover", "hover"],
 		translate: ["responsive", "group-hover", "hover"],
 		backgroundColor: ["group-hover", "hover"],

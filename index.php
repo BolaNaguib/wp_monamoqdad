@@ -46,16 +46,20 @@
                     <div>
                         <ul>
                             <li class="inline-block">
-                                <a class="hover:bg-gray-900 py-4 block px-4 hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url('/') ?>">Home</a>
+                                <a class="hover:bg-gray-900 py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url('/') ?>">Home</a>
                             </li>
                             <li class="inline-block">
-                                <a class="hover:bg-gray-900 py-4 block px-4 hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/about/">About</a>
+                                <a class="hover:bg-gray-900 py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/about/">About</a>
                             </li>
                             <li class="inline-block">
-                                <a class="hover:bg-gray-900 py-4 block px-4 hover:text-white transition duration-300 ease-in-out" href="#">HOME</a>
+                                <a class="hover:bg-gray-900 py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/products/">products</a>
                             </li>
                             <li class="inline-block">
-                                <a class="hover:bg-gray-900 py-4 block px-4 hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/contact/">Contact</a>
+                                <a class="hover:bg-gray-900 py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/singleproduct/">singleproduct</a>
+                            </li>
+
+                            <li class="inline-block">
+                                <a class="hover:bg-gray-900 py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/contact/">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -71,7 +75,7 @@
                 <div class="text-white  block " style="">
 
                     <ul id="scene" style="width:110%">
-                        <li class="layer l1" data-depth="0.10"><img src="http://tavonline.net/html/cloud/Html/images/cloudd.png" alt=""></li>
+                        <li class="layer l1" data-depth="0.10"><img class="w-full" src="http://tavonline.net/html/cloud/Html/images/cloudd.png" alt=""></li>
                         <li class="layer l2" data-depth="0.15"><img src="http://tavonline.net/html/cloud/Html/images/cloud-2.png" alt=""></li>
                         <li class="layer l3" data-depth="0.17"><img src="http://tavonline.net/html/cloud/Html/images/cloud-2.png" alt=""></li>
                     </ul>

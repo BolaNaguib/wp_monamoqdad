@@ -23,3 +23,4 @@
     </div>
     <!-- END container mx-auto px-4 -->
 </section>
+<iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.934313664098!2d31.469106750101346!3d30.038742281795493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f9c3f5ad639%3A0x755e8b0d6e6135d0!2sINETWORK%20Middle%20East%20LLC!5e0!3m2!1sen!2seg!4v1600050872042!5m2!1sen!2seg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>

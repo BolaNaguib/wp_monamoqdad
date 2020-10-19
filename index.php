@@ -32,32 +32,32 @@
         </div>
     </div>
     <div class="wrapper bg-black">
-        <section class=" absolute w-full top-0 mt-12 block">
+        <section class=" absolute w-full top-0 mt-2 block">
             <!-- START container mx-auto px-5 -->
             <div class='container mx-auto px-5'>
-                <nav class="bg-white text-black rounded-full flex items-center justify-between overflow-hidden  shadow-lg">
+                <nav class="bg-transparent text-black  flex items-center justify-between overflow-hidden  ">
                     <div class="flex items-center pl-1">
-                        <img class="w-12 h-12 rounded-full mr-4" src="http://tavonline.net/html/cloud/Html/images/logo.jpg" alt="logo">
+                        <!-- <img class="w-12 h-12 rounded-full mr-4" src="http://tavonline.net/html/cloud/Html/images/logo.jpg" alt="logo"> -->
                         <span>  
-                                                 <img class=" h-12 rounded-full mr-4" style='filter: brightness(0);' src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="">
+                                                 <img class=" h-24  mr-4" style='filter: brightness(1);' src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="">
 </span></div>
                     <div>
                         <ul>
                             <li class="inline-block">
-                                <a class="hover:bg-gray-900 py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url('/') ?>">Home</a>
+                                <a class="hover:bg-royal text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url('/') ?>">Home</a>
                             </li>
                             <li class="inline-block">
-                                <a class="hover:bg-gray-900 py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/about/">About</a>
+                                <a class="hover:bg-royal text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/about/">About</a>
                             </li>
                             <li class="inline-block">
-                                <a class="hover:bg-gray-900 py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/products/">products</a>
+                                <a class="hover:bg-royal text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/products/">products</a>
                             </li>
                             <li class="inline-block">
-                                <a class="hover:bg-gray-900 py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/singleproduct/">singleproduct</a>
+                                <a class="hover:bg-royal text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/singleproduct/">singleproduct</a>
                             </li>
 
                             <li class="inline-block">
-                                <a class="hover:bg-gray-900 py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/contact/">Contact</a>
+                                <a class="hover:bg-royal  text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/contact/">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -69,7 +69,9 @@
 
         <?php if (!is_front_page()) : ?>
             <!-- HOME -->
-            <div class="cloud-header bg-black bg-transparent " style="background-image: none; background-color:#000;">
+            <div class="cloud-header bg-black bg-transparent " style="background-image: url('https://images-na.ssl-images-amazon.com/images/I/714v6QkGEiL._AC_SL1500_.jpg'); background-color:#000;">
+            <!-- <img class="absolute w-full h-full top-0 left-0 z-index-10" src="https://images-na.ssl-images-amazon.com/images/I/714v6QkGEiL._AC_SL1500_.jpg" alt=""> -->
+          <div class="absolute bg-black opacity-75 w-full h-full top-0 left-0 z-index-20"></div>
                 <div class="text-white  block " style="">
 
                     <ul id="scene" style="width:110%">
@@ -268,6 +270,46 @@
         }
     </script>
 
+<script>
+const callback = function (entries) {
+  entries.forEach((entry) => {
+    console.log(entry);
+
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate-fadeIn");
+    } else {
+    //   entry.target.classList.remove("animate-fadeIn");
+    }
+  });
+};
+
+const observer = new IntersectionObserver(callback);
+
+const targets = document.querySelectorAll(".js-show-on-scroll");
+
+
+targets.forEach(function (target) {
+  target.classList.add("opacity-0");
+  observer.observe(target);
+});
+
+</script>
+
+<style>
+.js-show-on-scroll:nth-child(1) {animation-delay: 100ms; }
+.js-show-on-scroll:nth-child(2) {animation-delay: 300ms; }
+.js-show-on-scroll:nth-child(3) {animation-delay: 500ms; }
+.js-show-on-scroll:nth-child(4) {animation-delay: 700ms; }
+.js-show-on-scroll:nth-child(5) {animation-delay: 900ms; }
+.js-show-on-scroll:nth-child(6) {animation-delay: 1100ms; }
+.js-show-on-scroll:nth-child(7) {animation-delay: 1300ms; }
+.js-show-on-scroll:nth-child(8) {animation-delay: 1500ms; }
+.js-show-on-scroll:nth-child(9) {animation-delay: 1700ms; }
+.js-show-on-scroll:nth-child(10) {animation-delay: 1900ms; }
+.js-show-on-scroll:nth-child(11) {animation-delay: 2100ms; }
+.js-show-on-scroll:nth-child(12) {animation-delay: 2300ms; }
+
+</style>
 </body>
 
 

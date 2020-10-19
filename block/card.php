@@ -3,7 +3,7 @@
     <div class='container mx-auto px-4'>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 flex items-center">
             <div>
-                <h5 class="mb-4 block">Hand Crafted Art.</h5>
+                <h5 class="mb-4 block text-royal">Hand Crafted Art.   </h5>
                 <div>
                     <p class="block mb-4">
                         For instance, whenever I go back to the guest house during the morning to copy out the contract, these gentlemen are always still sitting there eating their breakfasts.

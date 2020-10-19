@@ -11,11 +11,11 @@
                 </div>
 
                 <div class="py-6">
-                    <h4 class="text-gray-900 text-3xl title-font font-medium mb-1">Product Title</h4>
-                    <h2 class="text-sm title-font text-gray-500 tracking-widest">Product Category</h2>
+                    <h4 class="text-gray-900 text-3xl title-font font-medium mb-1 text-royal">Product Title</h4>
+                    <h2 class="text-sm title-font text-gray-900 tracking-widest">Product Category</h2>
                     <br>
                     <div class="flex mb-4 justify-between">
-                        <span class="title-font font-medium text-2xl text-black">$58.00</span>
+                        <!-- <span class="title-font font-medium text-2xl text-black">$58.00</span> -->
 
                         <span class="flex items-center ">
                             <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-black" viewBox="0 0 24 24">
@@ -55,18 +55,18 @@
             </div>
             <div class="text-center">
 
-                <h3 class="mb-12 text-black">Request a Quote</h3>
+                <h3 class="mb-12 text-black text-royal">Request a Quote</h3>
             </div>
             <div class="forminput ">
                 <?php echo do_shortcode('[contact-form-7 id="53" title="Contact form 1"]') ?>
             </div>
             <div class="text-center">
 
-                <h3 class="mb-12 text-black">Gallery</h3>
+                <h3 class="mb-12 text-black text-royal">Gallery</h3>
             </div>
             <div class="grid grid-cols-4 gap-6">
                 <?php for ($i = 1; $i < 13; $i++) : ?>
-                    <div class="text-center border p-4 relative group  transform hover:scale-150 bg-white hover:shadow-2xl relative z-0 hover:z-10 transition duration-500 ease-in-out">
+                    <div class="text-center js-show-on-scroll border p-4 relative group  transform hover:scale-150 bg-white hover:shadow-2xl relative z-0 hover:z-10 transition duration-500 ease-in-out">
                         <a href="#">
                             <!-- <div class="bg-black text-white absolute top-0 left-0 h-full w-full flex items-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
                                 <div class="text-left p-4 relative">

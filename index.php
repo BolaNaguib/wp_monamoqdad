@@ -12,17 +12,13 @@
     <!-- Favicon -->
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <!-- Stylesheets -->
-    <!-- <link rel="stylesheet" href="http://tavonline.net/html/cloud/Html/css/bootstrap.min.css" /> -->
-    <!-- <link rel="stylesheet" href="http://tavonline.net/html/cloud/Html/css/reset.min.css" /> -->
-    <!-- <link rel="stylesheet" href="http://tavonline.net/html/cloud/Html/css/owl.theme.min.css" /> -->
-    <!-- <link rel="stylesheet" href="http://tavonline.net/html/cloud/Html/css/owl.carousel.min.css" /> -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/ss.css" />
-    <link rel="stylesheet" href="http://tavonline.net/html/cloud/Html/css/color.min.css" id="color" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/extra/color.min.css" id="color" />
     <!-- Google Web fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <!-- Font icons -->
-    <link rel="stylesheet" href="http://tavonline.net/html/cloud/Html/icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="http://tavonline.net/html/cloud/Html/icon-fonts/web-design/flaticon.min.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/extra/font-awesome.min.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/extra/flaticon.min.css" />
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -42,7 +38,9 @@
                 <nav class="bg-white text-black rounded-full flex items-center justify-between overflow-hidden  shadow-lg">
                     <div class="flex items-center pl-1">
                         <img class="w-12 h-12 rounded-full mr-4" src="http://tavonline.net/html/cloud/Html/images/logo.jpg" alt="logo">
-                        <span>Mona Al Moqdad</span></div>
+                        <span>  
+                                                 <img class=" h-12 rounded-full mr-4" style='filter: brightness(0);' src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="">
+</span></div>
                     <div>
                         <ul>
                             <li class="inline-block">
@@ -75,9 +73,9 @@
                 <div class="text-white  block " style="">
 
                     <ul id="scene" style="width:110%">
-                        <li class="layer l1" data-depth="0.10"><img class="w-full" src="http://tavonline.net/html/cloud/Html/images/cloudd.png" alt=""></li>
-                        <li class="layer l2" data-depth="0.15"><img src="http://tavonline.net/html/cloud/Html/images/cloud-2.png" alt=""></li>
-                        <li class="layer l3" data-depth="0.17"><img src="http://tavonline.net/html/cloud/Html/images/cloud-2.png" alt=""></li>
+                        <li class="layer l1" data-depth="0.10"><img class="w-full" src="<?php echo get_template_directory_uri() ?>/img/cloud/cloudd.png" alt=""></li>
+                        <li class="layer l2" data-depth="0.15"><img src="<?php echo get_template_directory_uri() ?>/img/cloud/cloud-2.png" alt=""></li>
+                        <li class="layer l3" data-depth="0.17"><img src="<?php echo get_template_directory_uri() ?>/img/cloud/cloud-2.png" alt=""></li>
                     </ul>
                 </div>
             </div>
@@ -210,15 +208,15 @@
 
     <?php wp_footer(); ?>
     <!-- Javascripts -->
-    <script src="http://tavonline.net/html/cloud/Html/js/jquery-1.12.4.min.js"></script>
-    <script src="http://tavonline.net/html/cloud/Html/js/main.min.js"></script>
-    <script src="http://tavonline.net/html/cloud/Html/js/bootstrap.min.js"></script>
-    <script src="http://tavonline.net/html/cloud/Html/js/parallax.min.js"></script>
-    <script src="http://tavonline.net/html/cloud/Html/js/isotope.pkgd.min.js"></script>
-    <script src="http://tavonline.net/html/cloud/Html/js/typed.min.js"></script>
-    <script src="http://tavonline.net/html/cloud/Html/js/owl.carousel.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/extra/js/jquery-1.12.4.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/extra/js/main.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/extra/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/extra/js/parallax.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/extra/js/isotope.pkgd.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/extra/js/typed.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/extra/js/owl.carousel.min.js"></script>
     <!-- for color alternatives -->
-    <script src="http://tavonline.net/html/cloud/Html/js/jquery.cookie-1.4.1.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/extra/js/jquery.cookie-1.4.1.min.js"></script>
     <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2/js-cloudimage-360-view.min.js"></script>
     <style>
         .cloudimage-360 canvas {

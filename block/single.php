@@ -3,7 +3,7 @@
 
     <section class="text-gray-700 body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto">
-            <div class="grid grid-cols-2 gap-6 mx-auto flex flex-wrap my-12">
+            <div class="grid md:grid-cols-2 gap-6 mx-auto flex flex-wrap my-12">
                 <div class=" flex items-center justify-center border text-center p-12 ">
                     <!-- <img class="ounded" style="max-height: 350px;" src="<?php echo get_template_directory_uri() ?>/assets/img/horse/Layer-1.png" alt="" title=""> -->
                     <div class="cloudimage-360" data-folder="<?php echo get_template_directory_uri() ?>/assets/img/horse/" data-filename="Layer-{index}.png" data-amount="36"></div>
@@ -64,7 +64,7 @@
 
                 <h3 class="mb-12 text-black text-royal">Gallery</h3>
             </div>
-            <div class="grid grid-cols-4 gap-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <?php for ($i = 1; $i < 13; $i++) : ?>
                     <div class="text-center js-show-on-scroll border p-4 relative group  transform hover:scale-150 bg-white hover:shadow-2xl relative z-0 hover:z-10 transition duration-500 ease-in-out">
                         <a href="#">

@@ -6,7 +6,7 @@
             <h3 class="mb-12">Black Horses</h3>
         </div>
 
-        <div class="grid grid-cols-4 gap-6 animationx">
+        <div class="grid md:grid-cols-4 gap-6 animationx">
             <?php for ($i = 1; $i < 13; $i++) : ?>
                 <div class="text-center border p-4 relative group js-show-on-scroll overflow-hidden">
                     <a href="<?php echo home_url() ?>/singleproduct/">

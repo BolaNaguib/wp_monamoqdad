@@ -13,9 +13,9 @@
                    </div>
                </div>
                <ul id="scene" style="width:110%">
-                   <li class="layer l1" data-depth="0.10"><img class="w-full" src="http://tavonline.net/html/cloud/Html/images/cloudd.png" alt=""></li>
-                   <li class="layer l2" data-depth="0.15"><img src="http://tavonline.net/html/cloud/Html/images/cloud-2.png" alt=""></li>
-                   <li class="layer l3" data-depth="0.17"><img src="http://tavonline.net/html/cloud/Html/images/cloud-2.png" alt=""></li>
+                   <li class="layer l1" data-depth="0.10"><img class="w-full" src="<?php echo get_template_directory_uri() ?>/assets/img/cloud/cloudd.png" alt=""></li>
+                   <li class="layer l2" data-depth="0.15"><img src="<?php echo get_template_directory_uri() ?>/assets/img/cloud/cloud-2.png" alt=""></li>
+                   <li class="layer l3" data-depth="0.17"><img src="<?php echo get_template_directory_uri() ?>/assets/img/cloud/cloud-2.png" alt=""></li>
                </ul>
            </div>
        </div>

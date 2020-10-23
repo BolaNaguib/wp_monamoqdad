@@ -4719,6 +4719,7 @@ img,video{max-width:100%;height:auto}
 .animate-pulse{-webkit-animation:pulse 2s cubic-bezier(0.4,0,0.6,1) infinite;animation:pulse 2s cubic-bezier(0.4,0,0.6,1) infinite}
 .animate-bounce{-webkit-animation:bounce 1s infinite;animation:bounce 1s infinite}
 .animate-fadeIn{-webkit-animation:fadeIn 2s ease-in forwards;animation:fadeIn 2s ease-in forwards}
+.animate-scaleIn{-webkit-animation:fadeIn 2s ease-in forwards;animation:fadeIn 2s ease-in forwards}
 .filter-grayscale{-webkit-filter:grayscale(1);filter:grayscale(1)}
 .filter-nograyscale{-webkit-filter:grayscale(0);filter:grayscale(0)}
 .hover\:filter-grayscale:hover{-webkit-filter:grayscale(1);filter:grayscale(1)}
@@ -4739,6 +4740,7 @@ img,video{max-width:100%;height:auto}
 .motion-safe\:animate-pulse{-webkit-animation:pulse 2s cubic-bezier(0.4,0,0.6,1) infinite;animation:pulse 2s cubic-bezier(0.4,0,0.6,1) infinite}
 .motion-safe\:animate-bounce{-webkit-animation:bounce 1s infinite;animation:bounce 1s infinite}
 .motion-safe\:animate-fadeIn{-webkit-animation:fadeIn 2s ease-in forwards;animation:fadeIn 2s ease-in forwards}
+.motion-safe\:animate-scaleIn{-webkit-animation:fadeIn 2s ease-in forwards;animation:fadeIn 2s ease-in forwards}
 }@media(min-width:640px){.container{max-width:640px}
 .sm\:container{width:100%}
 .sm\:space-y-0>:not(template) ~ :not(template){--space-y-reverse:0;margin-top:calc(0px * calc(1 - var(--space-y-reverse)));margin-bottom:calc(0px * var(--space-y-reverse))}

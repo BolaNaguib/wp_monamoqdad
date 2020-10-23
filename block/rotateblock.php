@@ -12,7 +12,7 @@ $url_title = get_field('url_title') ? get_field('url_title') : 'Detailes';
     <!-- START container mx-auto -->
     <div class='container mx-auto text-center'>
         <div class="block text-center">
-            <div class="cloudimage-360" data-folder="<?php echo get_template_directory_uri() ?>/assets/img/<?php echo $folder_name ?>/" data-filename="<?php echo $file_name ?>-{index}.png" data-amount="36"></div>
+            <div class="cloudimage-360" data-folder="<?php echo get_template_directory_uri() ?>/uploads/<?php echo $folder_name ?>/" data-filename="<?php echo $file_name ?>-{index}.png" data-amount="36"></div>
             <h2><?php echo $title ?></h2>
             <a class="bg-royal hover:bg-black transition duration-300 ease-in-out text-white py-4 px-6 inline-block mt-4" href="<?php echo $url ?>"><?php echo $url_title ?></a>
         </div>

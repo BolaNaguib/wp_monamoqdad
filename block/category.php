@@ -31,7 +31,11 @@ $image_url = $image ? $image['url'] : 'http://images-na.ssl-images-amazon.com/im
     <!-- END container mx-auto -->
 
     <!-- START container mx-auto relative z-20 py-64 -->
-    <div class='container mx-auto relative z-20 py-64'>
+    <div class='container mx-auto relative z-20 py-12'>
+    <div class="text-center">
+
+<h3 class="mb-12">Black Horses</h3>
+</div>
         <div class="grid grid-cols-3 gap-6 ">
 
             <div data-id="1" class=" relative h-64 overflow-hidden">
@@ -45,12 +49,7 @@ $image_url = $image ? $image['url'] : 'http://images-na.ssl-images-amazon.com/im
                 </a>
 
             </div>
-            <div data-id="2" class="test">
-                <a href="#"> hello </a>
-            </div>
-            <div data-id="3" class="test">
-                <a href="#"> hello </a>
-            </div>
+            
         </div>
     </div>
     <!-- END container mx-auto relative z-20 py-64 -->

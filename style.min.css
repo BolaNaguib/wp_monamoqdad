@@ -4734,6 +4734,12 @@ img,video{max-width:100%;height:auto}
 .forminput input[type="submit"]:focus{outline:0}
 .forminput textarea{width:100% !important;font-size:.875rem !important;position:relative !important;border-width:1px !important;border-radius:.25rem !important;padding-top:.5rem !important;padding-bottom:.5rem !important;padding-left:.5rem !important;padding-right:.5rem !important}
 .forminput textarea:focus{outline:0}
+.hoverMenu .showme{-webkit-transform:scale(0);transform:scale(0);-webkit-transition:500ms;transition:500ms}
+.hoverMenu:hover .showme{-webkit-transform:scale(1);transform:scale(1);display:block;-webkit-transition:500ms;transition:500ms}
+#dropDownMenu{-webkit-transform:scale(0);transform:scale(0);-webkit-transition:500ms;transition:500ms}
+#dropDownMenu.showDropDownMenu{-webkit-transform:scale(1);transform:scale(1);-webkit-transition:500ms;transition:500ms}
+.subPhoneDropdown{display:block;height:0;overflow:hidden;-webkit-transition:300ms;transition:300ms}
+.subPhoneDropdown.open{height:100%;-webkit-transition:300ms;transition:300ms}
 @media(prefers-reduced-motion:no-preference){.motion-safe\:animate-none{-webkit-animation:none;animation:none}
 .motion-safe\:animate-spin{-webkit-animation:spin 1s linear infinite;animation:spin 1s linear infinite}
 .motion-safe\:animate-ping{-webkit-animation:ping 1s cubic-bezier(0,0,0.2,1) infinite;animation:ping 1s cubic-bezier(0,0,0.2,1) infinite}

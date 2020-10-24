@@ -3,14 +3,19 @@
 
 <head>
     <?php wp_head() ?>
-
-    <title>Cloud Freelancer & Agency Portfolio Template</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Cloud Freelancer & Agency Portfolio Template">
-    <meta name="keywords" content="personal, portfolio, agency">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Favicon -->
-    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <?php if (!is_front_page()) : ?>
+        <title><?php wp_title('|', true, 'right'); ?> <?php bloginfo('name'); ?></title>
+    <?php else : ?>
+        <title><?php bloginfo('name'); ?> | <?php bloginfo('description') ?></title>
+
+    <?php endif; ?>
+    <?php $favicon = get_field('favicon', 'options') ?>
+    <meta name="title" content=" <?php the_field('meta_title'); ?> " />
+    <meta name="keywords" content=" <?php the_field('meta_keywords'); ?> " />
+    <meta name="description" content=" <?php the_field('meta_description'); ?> " />
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $favicon['url'] ?>" />
     <!-- Stylesheets -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/ss.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/extra/color.min.css" id="color" />
@@ -24,7 +29,10 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
+<?php
+$logo = get_field('logo', 'options');
+$url = home_url('/');
+?>
 <body>
     <!-- Preloading -->
     <div id="preloader">
@@ -39,26 +47,47 @@
                     <div class="flex items-center pl-1">
                         <!-- <img class="w-12 h-12 rounded-full mr-4" src="http://tavonline.net/html/cloud/Html/images/logo.jpg" alt="logo"> -->
                         <span>
-                            <img class=" h-24  mr-4" style='filter: brightness(1);' src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="">
+                        <a href="<?php echo $url ?>">
+                        <img class=" h-24  mr-4" src="<?php echo $logo['url']; ?>"
+                         alt="<?php echo $logo['alt']; ?>" title="<?php echo $logo['title'] ?>">
+                                                </a>
+
+                            <!-- <img class=" h-24  mr-4" style='filter: brightness(1);' src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt=""> -->
                         </span></div>
                     <div>
                         <ul class='lg:block hidden'>
-                            <li class="inline-block">
-                                <a class="hover:bg-royal text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url('/') ?>">Home</a>
-                            </li>
-                            <li class="inline-block">
-                                <a class="hover:bg-royal text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/about/">About</a>
-                            </li>
-                            <li class="inline-block">
-                                <a class="hover:bg-royal text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/products/">products</a>
-                            </li>
-                            <li class="inline-block">
-                                <a class="hover:bg-royal text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/singleproduct/">singleproduct</a>
-                            </li>
+                        <?php if (have_rows('menu', 'options')) : ?>
+                                <?php while (have_rows('menu', 'options')) : the_row();
+                                    //ACF Fields
+                                    $page_title = get_sub_field('page_title');
+                                    $page_link = get_sub_field('page_link');
 
-                            <li class="inline-block">
-                                <a class="hover:bg-royal  text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/contact/">Contact</a>
+                                ?>
+                            <li class="inline-block hoverMenu  transition duration-300 ease-in-out">
+                                <a class="hover:bg-royal text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo $page_link ?>"><?php echo $page_title ?></a>
+                                <?php if (have_rows('sub_menu')) : ?>
+                                            <div class="absolute showme  transition duration-300 ease-in-out">
+                                                <div class=" shadow overflow-hidden">
+                                                    <div class="z-20 bg-royal">
+                                                        <?php while (have_rows('sub_menu')) : the_row();
+                                                            //ACF Fields
+                                                            $page_title = get_sub_field('page_title');
+                                                            $page_link = get_sub_field('page_link');
+
+                                                        ?>
+                                                            <a href="<?php echo $page_link ?>" . class="text-sm block px-4 py-2 text-white hover:bg-white hover:text-royal transition duration-300 ease-out"><?php echo $page_title ?></a>
+
+                                                        <?php endwhile; ?>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        <?php endif; ?>
+
                             </li>
+                                <?php  endwhile;endif; ?>
+                            
                         </ul>
                         <div class="-mr-2 flex items-center justify-end lg:hidden col-span-2">
                             <button id="main-menu" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" id="main-menu" aria-label="Main menu" aria-haspopup="true">
@@ -101,23 +130,19 @@
                         }
                     </style>
                     <ul class="px-2 pt-2 pb-3">
+                    <?php if (have_rows('menu', 'options')) : ?>
+                                <?php while (have_rows('menu', 'options')) : the_row();
+                                    //ACF Fields
+                                    $page_title = get_sub_field('page_title');
+                                    $page_link = get_sub_field('page_link');
 
+                                ?>
                         <li class="block">
-                            <a class="hover:bg-royal text-royal py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url('/') ?>">Home</a>
-                        </li>
-                        <li class="block">
-                            <a class="hover:bg-royal text-royal py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/about/">About</a>
-                        </li>
-                        <li class="block">
-                            <a class="hover:bg-royal text-royal py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/products/">products</a>
-                        </li>
-                        <li class="block">
-                            <a class="hover:bg-royal text-royal py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/singleproduct/">singleproduct</a>
-                        </li>
+                            <a class="hover:bg-royal text-royal py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo $page_link ?>"><?php echo $page_title ?></a>
+                            
 
-                        <li class="block">
-                            <a class="hover:bg-royal  text-royal py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo home_url() ?>/contact/">Contact</a>
                         </li>
+                                                        <?php  endwhile;endif; ?>
                     </ul>
 
                 </div>

@@ -139,7 +139,9 @@ $col3_title = get_field('col3_title', 'option') ? get_field('col3_title', 'optio
 <script src="<?php echo get_template_directory_uri() ?>/extra/js/owl.carousel.min.js"></script>
 <!-- for color alternatives -->
 <script src="<?php echo get_template_directory_uri() ?>/extra/js/jquery.cookie-1.4.1.min.js"></script>
-<script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2/js-cloudimage-360-view.min.js"></script>
+<!-- <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2/js-cloudimage-360-view.min.js"></script> -->
+<script src="https://cdn.scaleflex.it/filerobot/js-cloudimage-360-view/v2.0.0.lazysizes.min.js"></script>
+
 <style>
     .cloudimage-360 canvas {
         width: unset !important;

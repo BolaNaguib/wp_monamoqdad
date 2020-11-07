@@ -9,7 +9,7 @@
         <div class="grid md:grid-cols-4 gap-6 animationx">
             <?php for ($i = 1; $i < 13; $i++) : ?>
                 <div class="text-center border p-4 relative group js-show-on-scroll overflow-hidden">
-                    <a href="<?php echo home_url() ?>/singleproduct/">
+                    <a href="<?php echo home_url() ?>/products/arabian-horse/">
                         <div class="bg-black text-white absolute z-index-40 bottom-0 left-0  flex items-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
                             <!-- <div class="text-left p-4 relative">
                                 <span class="block transform -translate-y-12 group-hover:translate-y-0 transition duration-500 ease-in-out">Product Name</span>

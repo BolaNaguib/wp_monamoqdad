@@ -39,7 +39,73 @@ $image_url = $image ? $image['url'] : 'http://images-na.ssl-images-amazon.com/im
         <div class="grid grid-cols-3 gap-6 ">
 
             <div data-id="1" class=" relative h-64 overflow-hidden">
-                <a class="shadow-xl group " href="#">
+                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
+                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
+                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
+                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+                   <div data-id="1" class=" relative h-64 overflow-hidden">
+                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
+                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
+                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
+                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+                   <div data-id="1" class=" relative h-64 overflow-hidden">
+                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
+                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
+                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
+                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+                   <div data-id="1" class=" relative h-64 overflow-hidden">
+                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
+                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
+                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
+                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+                   <div data-id="1" class=" relative h-64 overflow-hidden">
+                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
+                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
+                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
+                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
+
+       <div data-id="1" class=" relative h-64 overflow-hidden">
+                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
+                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
+                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
+                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+                    </div>
+
+                </a>
+
+            </div>
+                   <div data-id="1" class=" relative h-64 overflow-hidden">
+                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
                     <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
                     <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
                         <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>

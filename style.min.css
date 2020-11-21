@@ -245,6 +245,7 @@ img,video{max-width:100%;height:auto}
 #dropDownMenu.showDropDownMenu{-webkit-transform:scale(1);transform:scale(1);-webkit-transition:500ms;transition:500ms}
 .subPhoneDropdown{display:block;height:0;overflow:hidden;-webkit-transition:300ms;transition:300ms}
 .subPhoneDropdown.open{height:100%;-webkit-transition:300ms;transition:300ms}
+.wp-list-table.fixed{position:unset !important}
 @media(min-width:640px){.container{max-width:640px}
 .sm\:container{width:100%}
 .sm\:flex-row{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}

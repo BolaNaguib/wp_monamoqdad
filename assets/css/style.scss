@@ -37,7 +37,6 @@
 	}
 }
 
-
 .hoverMenu {
 	& .showme {
 		transform: scale(0);
@@ -70,4 +69,7 @@
 		height: 100%;
 		transition: 300ms;
 	}
+}
+.wp-list-table.fixed {
+	position: unset !important;
 }

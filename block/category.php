@@ -1,121 +1,39 @@
 <?php
-$image = get_field('image');
 
-$image_url = $image ? $image['url'] : 'http://images-na.ssl-images-amazon.com/images/I/714v6QkGEiL._AC_SL1500_.jpg'
-
+$block_title = get_field('block_title') ? get_field('block_title') : 'Black Horses';
 ?>
 <!-- START productCategory -->
 <div class='productCategory relative bg-white'>
-    <div class="absolute w-full h-full z-10 overflow-hidden">
-        <!-- <img id="1" class="object-cover w-full bgonhover  transition duration-1000 ease-linear " src="https://i.pinimg.com/originals/86/3e/ef/863eef974d1011a0d3c7a2698591bb3e.jpg">
-        <img id="2" class="object-cover w-full bgonhover  transition duration-1000 ease-linear" src="https://i.pinimg.com/originals/86/3e/ef/863eef974d1011a0d3c7a2698591bb3e.jpg">
-        <img id="3" class="object-cover w-full bgonhover  transition duration-1000 ease-linear" src="https://i.pinimg.com/originals/86/3e/ef/863eef974d1011a0d3c7a2698591bb3e.jpg"> -->
-    </div>
 
-
-    <!-- START container mx-auto -->
-    <!-- <div class='container mx-auto relative z-20  py-64 '>
-        <div class="grid grid-cols-3 gap-6 ">
-
-            <div data-id="1" class="test">
-                <a href="#"> hello </a>
-            </div>
-            <div data-id="2" class="test">
-                <a href="#"> hello </a>
-            </div>
-            <div data-id="3" class="test">
-                <a href="#"> hello </a>
-            </div>
-        </div>
-    </div> -->
-    <!-- END container mx-auto -->
 
     <!-- START container mx-auto relative z-20 py-64 -->
     <div class='container mx-auto relative z-20 py-12'>
-    <div class="text-center">
+        <div class="text-center">
 
-<h3 class="mb-12">Black Horses</h3>
-</div>
+            <h3 class="mb-12"><?php echo $block_title ?></h3>
+        </div>
         <div class="grid grid-cols-3 gap-6 ">
+            <?php if (have_rows('categories')) : ?>
+                <?php while (have_rows('categories')) : the_row();
+                    //ACF Fields
+                    $url = get_sub_field('url') ? get_sub_field('url') : '#';
+                    $title = get_sub_field('title') ? get_sub_field('title') : 'Category name';
+                    $img = get_sub_field('img');
+                ?>
+                    <div class=" relative h-64 overflow-hidden">
+                        <a class="shadow-xl group " href="<?php echo $url ?>">
+                            <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo $img ? $img['url'] : get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="<?php echo $img['alt'] ?>" title="<?php echo $img['title'] ?>">
+                            <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
+                                <span class="px-4 text-white  py-2  "> <?php echo $title ?> </span>
 
-            <div data-id="1" class=" relative h-64 overflow-hidden">
-                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
-                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
-                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
-                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
+                            </div>
 
-                    </div>
-
-                </a>
-
-            </div>
-                   <div data-id="1" class=" relative h-64 overflow-hidden">
-                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
-                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
-                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
-                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
-
-                    </div>
-
-                </a>
-
-            </div>
-                   <div data-id="1" class=" relative h-64 overflow-hidden">
-                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
-                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
-                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
-                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
+                        </a>
 
                     </div>
+                <?php endwhile; ?>
+            <?php endif; ?>
 
-                </a>
-
-            </div>
-                   <div data-id="1" class=" relative h-64 overflow-hidden">
-                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
-                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
-                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
-                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
-
-                    </div>
-
-                </a>
-
-            </div>
-                   <div data-id="1" class=" relative h-64 overflow-hidden">
-                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
-                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
-                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
-                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
-
-       <div data-id="1" class=" relative h-64 overflow-hidden">
-                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
-                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
-                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
-                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
-
-                    </div>
-
-                </a>
-
-            </div>
-                    </div>
-
-                </a>
-
-            </div>
-                   <div data-id="1" class=" relative h-64 overflow-hidden">
-                <a class="shadow-xl group " href="https://monaalmokdad.com/sub-category/">
-                    <img class="absolute object-cover group-hover:scale-125 transform transition duration-300 ease-in-out  w-full " src="<?php echo get_template_directory_uri(); ?>/assets/img/horses.jpg" alt="">
-                    <div class="absolute z-20 w-full h-full indent-0 flex justify-center text-center items-end shadow bg-gradient-to-t from-black">
-                        <span class="px-4 text-white  py-2  "> Black Gosrses Category </span>
-
-                    </div>
-
-                </a>
-
-            </div>
-            
         </div>
     </div>
     <!-- END container mx-auto relative z-20 py-64 -->

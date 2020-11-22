@@ -223,13 +223,11 @@ img,video{max-width:100%;height:auto}
 .-translate-y-12{--transform-translate-y:-3rem}
 .group:hover .group-hover\:translate-y-0{--transform-translate-y:0}
 .transition{-webkit-transition-property:background-color,border-color,color,fill,stroke,opacity,-webkit-box-shadow,-webkit-transform;transition-property:background-color,border-color,color,fill,stroke,opacity,-webkit-box-shadow,-webkit-transform;transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,-webkit-box-shadow,-webkit-transform}
-.ease-linear{-webkit-transition-timing-function:linear;transition-timing-function:linear}
 .ease-out{-webkit-transition-timing-function:cubic-bezier(0,0,0.2,1);transition-timing-function:cubic-bezier(0,0,0.2,1)}
 .ease-in-out{-webkit-transition-timing-function:cubic-bezier(0.4,0,0.2,1);transition-timing-function:cubic-bezier(0.4,0,0.2,1)}
 .duration-150{-webkit-transition-duration:150ms;transition-duration:150ms}
 .duration-300{-webkit-transition-duration:300ms;transition-duration:300ms}
 .duration-500{-webkit-transition-duration:500ms;transition-duration:500ms}
-.duration-1000{-webkit-transition-duration:1000ms;transition-duration:1000ms}
 .animate-fadeIn{-webkit-animation:fadeIn 2s ease-in forwards;animation:fadeIn 2s ease-in forwards}
 .forminput input{width:100% !important;font-size:.875rem !important;position:relative !important;border-width:1px !important;border-radius:.25rem !important;padding-top:.5rem !important;padding-bottom:.5rem !important;padding-left:.5rem !important;padding-right:.5rem !important;margin-bottom:1rem !important}
 .forminput input:focus{outline:0}

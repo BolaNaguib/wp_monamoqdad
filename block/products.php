@@ -26,10 +26,10 @@ $block_title = get_field('block_title') ? get_field('block_title') : 'Category n
 
                             </div>
                             <div class='w-full absolute bg-white opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out'>
-                                <img style="max-height: 200px;" class="inline-block max-h-full " src="<?php echo $sub_image ? $sub_image : get_template_directory_uri() ?>/assets/img/horse/Layer-<?php echo $i + 1 ?>.png" alt="">
+                                <img style="max-height: 200px;" class="inline-block max-h-full " src="<?php echo $sub_image ? $sub_image['url'] : get_template_directory_uri() ?>/assets/img/horse/Layer-<?php echo $i + 1 ?>.png" alt="">
                             </div>
 
-                            <img style="max-height: 200px;" class="inline-block max-h-full" src="<?php echo $main_image ? $main_image : get_template_directory_uri() ?>/assets/img/horse/Layer-<?php echo $i ?>.png" alt="">
+                            <img style="max-height: 200px;" class="inline-block max-h-full" src="<?php echo $main_image ? $main_image['url'] : get_template_directory_uri() ?>/assets/img/horse/Layer-<?php echo $i ?>.png" alt="">
                             <div>
                             </div>
                         </a>

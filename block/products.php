@@ -14,10 +14,10 @@ $block_title = get_field('block_title') ? get_field('block_title') : 'Category n
             <?php if (have_rows('products')) : ?>
                 <?php while (have_rows('products')) : the_row();
                     //ACF Fields
-                    $url = get_field('url') ? get_field('url') : '#';
-                    $title = get_field('title') ? get_field('title') : 'Product Name';
-                    $main_image = get_field('main_image');
-                    $sub_image = get_field('sub_image');
+                    $url = get_sub_field('url') ? get_sub_field('url') : '#';
+                    $title = get_sub_field('title') ? get_sub_field('title') : 'Product Name';
+                    $main_image = get_sub_field('main_image');
+                    $sub_image = get_sub_field('sub_image');
                 ?>
                     <div class="text-center border p-4 relative group js-show-on-scroll overflow-hidden">
                         <a href="<?php echo $url ?>">
@@ -26,10 +26,10 @@ $block_title = get_field('block_title') ? get_field('block_title') : 'Category n
 
                             </div>
                             <div class='w-full absolute bg-white opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out'>
-                                <img style="max-height: 200px;" class="inline-block max-h-full " src="<?php echo $sub_image ? $sub_image['url'] : get_template_directory_uri() ?>/assets/img/horse/Layer-<?php echo $i + 1 ?>.png" alt="">
+                                <img style="max-height: 200px;" class="inline-block max-h-full " src="<?php echo $sub_image['url'] ?>" alt="">
                             </div>
 
-                            <img style="max-height: 200px;" class="inline-block max-h-full" src="<?php echo $main_image ? $main_image['url'] : get_template_directory_uri() ?>/assets/img/horse/Layer-<?php echo $i ?>.png" alt="">
+                            <img style="max-height: 200px;" class="inline-block max-h-full" src="<?php echo $main_image['url'] ?>" alt="">
                             <div>
                             </div>
                         </a>

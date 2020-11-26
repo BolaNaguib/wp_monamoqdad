@@ -96,33 +96,39 @@ $col3_title = get_field('col3_title', 'option') ? get_field('col3_title', 'optio
 
 </footer>
 <div class="bg-black">
-    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p class="text-gray-600 text-sm text-center sm:text-left">© 2020 MonaAlMoqdad —
-            <a href="https://twitter.com/knyttneve" class="text-gray-500 ml-1" rel="noopener noreferrer" target="_blank">Inetwork-ME</a>
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row justify-between ">
+        <p class="text-gray-600 text-sm text-center sm:text-left">© 2020 MonaAlMoqdad — Developed with <svg
+		style='
+    height: 10px;
+    margin: 0px 3px;
+'	class='w-3 h-3 mx-1 inline-block' aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-heart fa-w-16"><path fill="#f00" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" class=""></path></svg>
+			By
+            <a href="https://inetwork-me.com/" class="text-gray-500 ml-1" rel="noopener noreferrer" target="_blank">Inetwork-ME</a>
         </p>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <a href='<?php echo $fb ?>' class="text-gray-600">
+        <span class="inline-flex sm:ml-auto sm:mt-2 mt-0 justify-center sm:justify-start">
+            
+			<a href='<?php echo $fb ?>' class="text-gray-600">
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
             </a>
-            <a href='<?php echo $tw ?>' class="ml-3 text-gray-600">
+<!--             <a href='<?php echo $tw ?>' class="ml-3 text-gray-600">
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                     <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
-            </a>
+            </a> -->
             <a href='<?php echo $ig ?>' class="ml-3 text-gray-600">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                     <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                     <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                 </svg>
             </a>
-            <a href='<?php echo $li ?>' class="ml-3 text-gray-600">
+<!--             <a href='<?php echo $li ?>' class="ml-3 text-gray-600">
                 <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
                     <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
                     <circle cx="4" cy="4" r="2" stroke="none"></circle>
                 </svg>
-            </a>
+            </a> -->
         </span>
     </div>
 </div>

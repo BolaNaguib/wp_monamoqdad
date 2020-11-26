@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/ss.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/extra/color.min.css" id="color" />
     <!-- Google Web fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
     <!-- Font icons -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/extra/font-awesome.min.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/extra/flaticon.min.css" />

@@ -36,6 +36,7 @@ function my_acf_init()
         add_guttenberg_block('products');
         add_guttenberg_block('single');
         add_guttenberg_block('card');
+        add_guttenberg_block('grid360');
     }
 }
 function add_guttenberg_block($blockname)

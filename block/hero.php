@@ -6,6 +6,12 @@ $image = get_field('image');
 $image_url = $image ? $image['url'] : 'https://images-na.ssl-images-amazon.com/images/I/714v6QkGEiL._AC_SL1500_.jpg'
 
 ?>
+
+<style>
+	.newfont{
+		font-family: 'Xanh Mono', monospace;
+	}
+</style>
 <!-- HOME -->
 <div class="home type-2 bg-black bg-transparent h-screen " style="background-image: none; background-color:#000;">
     <img class="absolute w-full h-full top-0 left-0 z-index-10" src="<?php echo $image_url ?>" alt="<?php echo $image['alt'] ?>" title="<?php echo $image['title'] ?>" alt="">
@@ -13,13 +19,13 @@ $image_url = $image ? $image['url'] : 'https://images-na.ssl-images-amazon.com/i
     <div class="text-white  block mt-64 " style="">
         <div class="container mx-auto ">
 
-            <div class="container mx-auto  items-center text-center text-white relative z-index-30 ">
-                <h1>
+            <div class="container mx-auto  items-end text-center text-white relative z-index-30 ">
+<!--                 <h1>
                     <?php echo $title ?>
 
                 </h1>
-                <br>
-                <b class='bg-royal text-white px-2 py-4 inline-block'>
+                <br> -->
+                <b class=' text-white px-2 py-4 inline-block newfont'>
                     <?php echo $caption ?>
                 </b>
             </div>

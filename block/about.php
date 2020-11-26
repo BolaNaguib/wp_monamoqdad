@@ -10,8 +10,9 @@ $image = get_field('image');
     <div class='container mx-auto px-4'>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
-                <span class="text-gray-900"><?php echo $title_tag ?></span>
-                <h5 class="mb-4 block text-royal"><?php echo $title ?></h5>
+                <h5 class="block text-royal"><?php echo $title ?></h5>
+                <span class="text-gray-900 mb-4 block"><?php echo $title_tag ?></span>
+                <br />
                 <p>
                     <?php echo $caption ?>
                 </p>

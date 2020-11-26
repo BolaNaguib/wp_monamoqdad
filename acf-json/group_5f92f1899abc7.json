@@ -3,9 +3,9 @@
     "title": "Block: About",
     "fields": [
         {
-            "key": "field_5f92f19148324",
-            "label": "Title Tag",
-            "name": "title_tag",
+            "key": "field_5f92f19d48325",
+            "label": "Title",
+            "name": "title",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -22,9 +22,9 @@
             "maxlength": ""
         },
         {
-            "key": "field_5f92f19d48325",
-            "label": "Title",
-            "name": "title",
+            "key": "field_5f92f19148324",
+            "label": "Title Tag",
+            "name": "title_tag",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -101,5 +101,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1605945478
+    "modified": 1606084882
 }

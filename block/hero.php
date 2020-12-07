@@ -25,7 +25,7 @@ $image_url = $image ? $image['url'] : 'https://images-na.ssl-images-amazon.com/i
 
                 </h1>
                 <br> -->
-                <b class=' lg:text-white px-2 pt-32 lg:pt-4 py-4 inline-block newfont text-2xl lg:text-4xl'>
+                <b class=' text-white px-2 pt-32 lg:pt-4 py-4 inline-block newfont text-2xl lg:text-4xl'>
                     <?php echo $caption ?>
                 </b>
             </div>

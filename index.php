@@ -3,7 +3,7 @@
     <section>
         <div class="container mx-auto py-24">
 
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid lg:grid-cols-3 gap-6">
                 <?php if (have_posts()) :
                     $args = array(
                         'category_name' => 'blog'

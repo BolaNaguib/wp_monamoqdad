@@ -19,13 +19,13 @@ $image_url = $image ? $image['url'] : 'https://images-na.ssl-images-amazon.com/i
     <div class="text-white  block mt-64 " style="">
         <div class="container mx-auto ">
 
-            <div class="container mx-auto  items-end text-left text-white relative z-index-30 ">
+            <div class="container mx-auto  items-end text-center lg:text-left text-white relative z-index-30 ">
                 <!--                 <h1>
                     <?php echo $title ?>
 
                 </h1>
                 <br> -->
-                <b class=' text-white px-2 py-4 inline-block newfont lg:text-4xl'>
+                <b class=' text-white px-2 pt-32 lg:pt-4 py-4 inline-block newfont text-2xl lg:text-4xl'>
                     <?php echo $caption ?>
                 </b>
             </div>

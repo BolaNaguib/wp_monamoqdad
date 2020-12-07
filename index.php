@@ -1,7 +1,7 @@
     <?php get_header(); ?>
 
     <section>
-        <div class="container mx-auto py-24">
+        <div class="container px-6 mx-auto py-24">
 
             <div class="grid lg:grid-cols-3 gap-6">
                 <?php if (have_posts()) :

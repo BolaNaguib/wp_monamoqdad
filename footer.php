@@ -304,6 +304,9 @@ $col3_title = get_field('col3_title', 'option') ? get_field('col3_title', 'optio
         height: 100%;
         transition: 300ms;
     }
+	.cloud-header{
+		    padding-top: 430px;
+	}
 </style>
 <script>
     const menuButton = document.getElementById('main-menu');

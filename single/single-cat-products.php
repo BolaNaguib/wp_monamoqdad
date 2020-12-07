@@ -18,8 +18,10 @@ $description = get_field('description') ? get_field('description') : 'Fam locavo
                 <div class="container px-5 py-24 mx-auto">
                     <div class="grid md:grid-cols-2 gap-6 mx-auto flex flex-wrap my-12">
                         <div class=" flex items-center justify-center border text-center p-12  overflow-hidden">
-                            <?php if ($thumbnail) : ?>
-                                <img src="<?php echo $thumbnail['url'] ?>" alt="<?php echo $thumbnail['alt'] ?>" title="<?php echo $thumbnail['title'] ?>">
+                            <?php if ($thumbnail) :
+                            ?>
+
+                                <img src="<?php echo $thumbnail ?>">
                             <?php else : ?>
                                 <div class="cloudimage-360" data-folder="<?php echo get_template_directory_uri() ?>/uploads/<?php echo $folder_name ?>/" data-filename="<?php echo $file_name ?>-{index}.png" data-amount="36"></div>
 
@@ -69,12 +71,7 @@ $description = get_field('description') ? get_field('description') : 'Fam locavo
 
                         </div>
                     </div>
-                    <div class="text-center">
-                        <b class="text-lg md:text-3xl block mb-4 text-royal">Request a Quote</b>
-                    </div>
-                    <div class="forminput ">
-                        <?php echo do_shortcode('[contact-form-7 id="53" title="Contact form 1"]') ?>
-                    </div>
+
                     <div class="text-center">
                         <b class="text-lg md:text-3xl block mb-4 text-royal">Gallery</b>
                     </div>
@@ -86,22 +83,24 @@ $description = get_field('description') ? get_field('description') : 'Fam locavo
                             ?>
 
 
-                                <div class="text-center js-show-on-scroll border p-4 relative group  transform hover:scale-150 bg-white hover:shadow-2xl relative z-0 hover:z-10 transition duration-500 ease-in-out">
-                                    <a href="#">
-                                        <!-- <div class="bg-black text-white absolute top-0 left-0 h-full w-full flex items-center opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out">
-                            <div class="text-left p-4 relative">
-                                <span class="block transform -translate-y-12 group-hover:translate-y-0 transition duration-500 ease-in-out">Product Name</span>
-                                <small class="block transform translate-y-12  group-hover:translate-y-0 transition duration-500 ease-in-out">Description</small>
-                            </div>
-
-                        </div> -->
-                                        <img style="max-height: 200px;" class="inline-block max-h-full transform" src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>" title="<?php echo $image['title'] ?>">
-                                    </a>
+                                <div class="text-center js-show-on-scroll border border-royal p-4 relative group  transform hover:scale-150 bg-white hover:shadow-2xl relative z-0 hover:z-10 transition duration-500 ease-in-out">
+                                    <img style="max-height: 200px;" class="inline-block max-h-full transform" src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>" title="<?php echo $image['title'] ?>">
 
                                 </div>
                             <?php endwhile; ?>
                         <?php endif; ?>
                     </div>
+					
+                    <div class="text-center mt-8">
+                        <b class="text-lg md:text-3xl block mb-4 text-royal">Request a Quote</b>
+                    </div>
+                    <div class="forminput ">
+                        <?php echo do_shortcode('[contact-form-7 id="53" title="Contact form 1"]') ?>
+                    </div>
+
+
+
+
                 </div>
             </section>
 

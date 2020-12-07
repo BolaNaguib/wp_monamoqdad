@@ -34,6 +34,8 @@
 <?php
 $logo = get_field('logo', 'options');
 $url = home_url('/');
+$pdf = get_field('file_name','options');
+$button_name = get_field('button_name','options')
 ?>
 <body>
 <!-- Load Facebook SDK for JavaScript -->
@@ -113,6 +115,9 @@ $url = home_url('/');
 
                             </li>
                                 <?php  endwhile;endif; ?>
+                            <li class="inline-block hoverMenu  transition duration-300 ease-in-out">
+								 <a class=" border-royal border hover:bg-royal text-white py-4 block px-4 text-sm hover:text-white transition duration-300 ease-in-out" href="<?php echo get_template_directory_uri() ?>/uploads/pdf/<?php echo $pdf ?>"> <?php echo $button_name ?> </a>
+							</li>
                             
                         </ul>
                         <div class="-mr-2 flex items-center justify-end lg:hidden col-span-2">

@@ -22,18 +22,18 @@ module.exports = {
 			},
 			animation: {
 				fadeIn: "fadeIn 2s ease-in forwards",
-				scaleIn: "fadeIn 2s ease-in forwards"
-			  },
-			  keyframes: {
+				scaleIn: "fadeIn 2s ease-in forwards",
+			},
+			keyframes: {
 				fadeIn: {
-				  "0%": { opacity: 0 },
-				  "100%": { opacity: 1 }
+					"0%": { opacity: 0 },
+					"100%": { opacity: 1 },
 				},
 				scaleIn: {
 					"0%": { scale: 0 },
-					"100%": { scale: 1 }
-				  }
-			  }
+					"100%": { scale: 1 },
+				},
+			},
 		},
 	},
 	variants: {
@@ -45,8 +45,7 @@ module.exports = {
 		scale: ["group-hover", "hover"],
 		translate: ["responsive", "group-hover", "hover"],
 		backgroundColor: ["group-hover", "hover"],
-		animation: ["motion-safe"]
-
+		animation: ["motion-safe"],
 	},
 	plugins: [require("tailwindcss-filters")],
 };
